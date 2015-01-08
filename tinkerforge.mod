@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Do 04 Dez 2014 11:55:28 CET
+PCBNEW-LibModule-V1  Do 08 Jan 2015 14:47:40 CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -50,6 +50,7 @@ D2PAK_12
 DCDC-RBE
 DC_JACK
 DFN-32
+DFN16-33x135
 DFN16_5x3
 DIP_8_SMD
 DO-214AA
@@ -4464,6 +4465,139 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE DFN-32
+$MODULE DFN16-33x135
+Po 0 0 0 15 54AE5E41 00000000 ~~
+Li DFN16-33x135
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -0.5 0.127 0.127 0 0.03175 N V 21 N "DFN16-33x135"
+T1 0 0 0.127 0.127 0 0.03175 N V 21 N "VAL**"
+DC 1.4 -0.45 1.5 -0.35 0.001 21
+DS -1.7 -0.7 1.7 -0.7 0.001 21
+DS 1.7 -0.7 1.7 0.7 0.001 21
+DS 1.7 0.7 -1.7 0.7 0.001 21
+DS -1.7 0.7 -1.7 -0.7 0.001 21
+$PAD
+Sh "1" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.4 -0.675
+$EndPAD
+$PAD
+Sh "2" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -0.675
+$EndPAD
+$PAD
+Sh "3" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 -0.675
+$EndPAD
+$PAD
+Sh "4" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.2 -0.675
+$EndPAD
+$PAD
+Sh "5" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.2 -0.675
+$EndPAD
+$PAD
+Sh "6" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 -0.675
+$EndPAD
+$PAD
+Sh "7" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -0.675
+$EndPAD
+$PAD
+Sh "8" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.4 -0.675
+$EndPAD
+$PAD
+Sh "9" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.4 0.675
+$EndPAD
+$PAD
+Sh "10" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0.675
+$EndPAD
+$PAD
+Sh "11" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 0.675
+$EndPAD
+$PAD
+Sh "12" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.2 0.675
+$EndPAD
+$PAD
+Sh "13" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.2 0.675
+$EndPAD
+$PAD
+Sh "14" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 0.675
+$EndPAD
+$PAD
+Sh "15" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.675
+$EndPAD
+$PAD
+Sh "16" R 0.25 0.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.4 0.675
+$EndPAD
+$PAD
+Sh "EXP" R 2.8 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE DFN16-33x135
 $MODULE DFN16_5x3
 Po 0 0 0 15 50A4E1D1 00000000 ~~
 Li DFN16_5x3
