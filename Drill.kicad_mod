@@ -1,0 +1,9 @@
+(module Drill (layer F.Cu) (tedit 4D9D9253)
+  (fp_text reference Drill (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
+  )
+  (fp_text value Val** (at 0 0.50038) (layer F.SilkS) hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 4.699 4.699) (drill 2.99974) (layers *.Cu *.SilkS *.Mask))
+)
