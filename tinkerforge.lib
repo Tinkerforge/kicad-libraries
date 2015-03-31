@@ -6238,4 +6238,22 @@ X VCC 5 500 50 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# audio-jack
+#
+DEF audio-jack J 0 40 Y Y 1 F N
+F0 "J" -410 280 60 H V C CNN
+F1 "audio-jack" -210 -225 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 3 0 1 0  -250 150  0 150  0 -65 N
+P 4 0 1 0  -250 -150  -210 -150  -180 -120  -150 -150 N
+P 4 0 1 0  -250 0  -140 0  -110 35  -75 0 N
+P 5 0 1 0  0 65  -30 65  -30 -150  0 -150  0 -65 N
+X ~ 1 -450 150 200 R 50 50 1 1 P
+X ~ 2 -450 -150 200 R 50 50 1 1 P
+X ~ 3 -450 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
