@@ -5,6 +5,10 @@ D Symbole general de connexion
 K CONN
 $ENDCMP
 #
+$CMP D
+D Diode
+$ENDCMP
+#
 $CMP FDC2512
 D SI4456DY - SO8
 $ENDCMP

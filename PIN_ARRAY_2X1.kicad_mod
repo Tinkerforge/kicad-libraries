@@ -1,10 +1,10 @@
-(module PIN_ARRAY_2X1 (layer F.Cu) (tedit 5669278F)
+(module PIN_ARRAY_2X1 (layer F.Cu) (tedit 5678F0D3)
   (descr "Connecteur 3 pins")
   (tags "CONN DEV")
-  (fp_text reference K1 (at 1.778 -1.524) (layer F.SilkS)
+  (fp_text reference P301 (at 1.778 -1.524) (layer F.SilkS)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
-  (fp_text value CONN_3 (at -2.032 -1.524) (layer F.SilkS) hide
+  (fp_text value Jumper (at -2.032 -1.524) (layer F.SilkS) hide
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
   (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.15))
@@ -12,8 +12,8 @@
   (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
   (fp_line (start 0 -1.27) (end 0 1.27) (layer F.SilkS) (width 0.1524))
-  (pad 1 thru_hole rect (at -1.27 0) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 1.27 0) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -1.27 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 1.27 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (model pin_array/pins_array_3x1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
