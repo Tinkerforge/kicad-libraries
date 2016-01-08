@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AGND
+K POWER, PWR
+$ENDCMP
+#
 $CMP CONN_21
 D Symbole general de connexion
 K CONN
