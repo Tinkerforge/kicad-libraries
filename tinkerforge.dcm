@@ -61,4 +61,9 @@ K ampliop
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
 #End Doc Library
