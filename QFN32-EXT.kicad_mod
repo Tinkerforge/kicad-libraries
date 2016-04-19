@@ -1,4 +1,4 @@
-(module QFN32-EXT (layer F.Cu) (tedit 53217498)
+(module QFN32-EXT (layer F.Cu) (tedit 5716196F)
   (descr "Support CMS Plcc 32 pins")
   (tags "CMS Plcc")
   (attr smd)
@@ -45,5 +45,5 @@
   (pad 26 smd oval (at 1.24968 -2.65) (size 0.254 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 27 smd oval (at 0.7493 -2.65) (size 0.254 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 28 smd oval (at 0.24892 -2.65) (size 0.254 1.2) (layers F.Cu F.Paste F.Mask))
-  (pad 33 smd rect (at 0 0) (size 3.45 3.45) (layers F.Cu F.Paste F.Mask))
+  (pad 33 smd rect (at 0 0) (size 3.4 3.4) (layers F.Cu F.Paste F.Mask))
 )

@@ -45,6 +45,16 @@ $CMP MMBTA42
 F transistors/bipolar/*.*
 $ENDCMP
 #
+$CMP MOSFET_N_CH
+D Transistor P-MOSFET, collector connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Optocoupler
+D Optocoupler
+K Optocoupler
+$ENDCMP
+#
 $CMP TL072
 D Dual Op amp (low power)
 K ampliop
