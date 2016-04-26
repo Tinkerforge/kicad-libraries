@@ -25,6 +25,14 @@ $CMP FDC2512
 D SI4456DY - SO8
 $ENDCMP
 #
+$CMP GNDD1
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDD2
+K POWER, PWR
+$ENDCMP
+#
 $CMP LM358N
 D Dual Op amp (low power)
 K ampliop
@@ -71,6 +79,12 @@ $ENDCMP
 $CMP TL082
 D Dual Op amp (Cmos)
 K ampliop
+$ENDCMP
+#
+$CMP TLP293
+D SOP4, Single Optocoupler, Vce 80V, CTR 50-100%
+K NPN DC Quad Optocoupler
+F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291-4_en_datasheet_120322.pdf
 $ENDCMP
 #
 $CMP TLV271
