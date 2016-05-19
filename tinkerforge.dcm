@@ -85,6 +85,12 @@ D Dual Op amp (Cmos)
 K ampliop
 $ENDCMP
 #
+$CMP TLP2361
+D SOP4, Single Optocoupler, Vce 80V, CTR 50-100%
+K NPN DC Quad Optocoupler
+F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291-4_en_datasheet_120322.pdf
+$ENDCMP
+#
 $CMP TLP293
 D SOP4, Single Optocoupler, Vce 80V, CTR 50-100%
 K NPN DC Quad Optocoupler
