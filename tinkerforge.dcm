@@ -37,6 +37,10 @@ $CMP GNDD2
 K POWER, PWR
 $ENDCMP
 #
+$CMP LED
+K LED
+$ENDCMP
+#
 $CMP LM358N
 D Dual Op amp (low power)
 K ampliop
