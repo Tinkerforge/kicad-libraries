@@ -16,6 +16,14 @@ $CMP AGND3
 K POWER, PWR
 $ENDCMP
 #
+$CMP CONN_01X02
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector 01x04
+$ENDCMP
+#
 $CMP CONN_21
 D Symbole general de connexion
 K CONN
