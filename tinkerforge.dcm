@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC1G17
+D buffer with Schmitt trigger.
+$ENDCMP
+#
 $CMP AGND
 K POWER, PWR
 $ENDCMP
