@@ -21,7 +21,7 @@
     (clearance 0.14986))
   (pad "" thru_hole circle (at 0 -0.89916) (size 0.8001 0.8001) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
     (clearance 0.14986))
-  (model brick_taster.wrl
+  (model Buttons_Switches/brick_button_SMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
