@@ -1,4 +1,4 @@
-(module SO-8-EP (layer F.Cu) (tedit 59102665)
+(module SO-8-EP (layer F.Cu) (tedit 591F0475)
   (fp_text reference U2 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
@@ -17,4 +17,9 @@
   (pad 7 smd rect (at -0.63246 -2.86766) (size 0.79756 2.19964) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -1.90246 -2.86766) (size 0.79756 2.19964) (layers F.Cu F.Paste F.Mask))
   (pad EP smd rect (at 0 0) (size 3.3 2.4) (layers F.Cu F.Paste F.Mask))
+  (model Housing_SO/SO-8.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 180))
+  )
 )
