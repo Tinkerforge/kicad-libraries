@@ -1,9 +1,9 @@
-(module CE_5mm (layer F.Cu) (tedit 0)
+(module CE_5mm (layer F.Cu) (tedit 5922FFD4)
   (fp_text reference VAL (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.143 1.143) (thickness 0.1778)))
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
   )
   (fp_text value CE_5mm (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.143 1.143) (thickness 0.1778)))
+    (effects (font (size 0.2 0.2) (thickness 0.05)))
   )
   (fp_poly (pts (xy -0.55372 1.67132) (xy -0.5715 1.67386) (xy -0.57912 1.6764) (xy -0.59436 1.6764)
     (xy -0.61214 1.6764) (xy -0.635 1.6764) (xy -0.65786 1.67894) (xy -0.68326 1.67894)
