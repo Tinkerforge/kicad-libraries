@@ -101,6 +101,11 @@ D Optocoupler
 K Optocoupler
 $ENDCMP
 #
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
 $CMP TL072
 D Dual Op amp (low power)
 K ampliop
