@@ -11,4 +11,9 @@
   (fp_line (start 3.70078 -3.50012) (end 3.70078 3.50012) (layer F.Fab) (width 0.381))
   (pad 1 smd rect (at -3.0988 0) (size 2.49936 3.70078) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.0988 0) (size 2.49936 3.70078) (layers F.Cu F.Paste F.Mask))
+  (model Inductors/SRP7030.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
