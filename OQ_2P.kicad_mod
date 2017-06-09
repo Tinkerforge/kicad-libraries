@@ -11,4 +11,9 @@
   (fp_line (start 4.24942 -1.19888) (end 4.24942 8.001) (layer F.Fab) (width 0.39878))
   (pad 1 thru_hole circle (at -1.75006 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 1.75006 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
+  (model Connectors/OQ_2P_green.wrl
+    (at (xyz 0 -0.125 0.14))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

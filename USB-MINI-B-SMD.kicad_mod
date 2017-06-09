@@ -32,6 +32,6 @@
   (model Connectors/MiniUSB.wrl
     (at (xyz 0 -0.15 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 0))
+    (rotate (xyz 0 0 180))
   )
 )
