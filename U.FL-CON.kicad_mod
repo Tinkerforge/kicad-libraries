@@ -16,6 +16,6 @@
   (model Connectors/U-FL_CON.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz 0 0 0))
   )
 )
