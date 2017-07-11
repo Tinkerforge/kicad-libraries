@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (module SOT363 (layer F.Cu) (tedit 5964A09E)
   (attr smd)
   (fp_text reference D2 (at 0.35 0 90) (layer F.Fab)
@@ -17,4 +18,9 @@
   (pad 6 smd rect (at 0.9 -0.75) (size 0.6 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.9 0) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 0.9 0) (size 0.6 0.4) (layers F.Cu F.Paste F.Mask))
+  (model Housing_SOT_SOD/SOT-363.wrl
+    (at (xyz 0 0 -0.002))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 90))
+  )
 )
