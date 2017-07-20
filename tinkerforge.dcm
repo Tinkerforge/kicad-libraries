@@ -42,6 +42,11 @@ $CMP D
 D Diode
 $ENDCMP
 #
+$CMP D_Bridge
+D Diode bridge (pins: 1=-, 2=AC, 3=+, 4=AC)
+K rectifier acdc
+$ENDCMP
+#
 $CMP FDC2512
 D SI4456DY - SO8
 $ENDCMP
