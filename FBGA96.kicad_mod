@@ -1,4 +1,4 @@
-(module FBGA96 (layer F.Cu) (tedit 595F5B89)
+(module FBGA96 (layer F.Cu) (tedit 5979EEF3)
   (clearance 0.15)
   (attr smd)
   (fp_text reference U1 (at 0 2.6125) (layer F.Fab)
@@ -12,7 +12,6 @@
   (fp_line (start 4.44834 5.33736) (end -4.54834 5.33736) (layer F.Fab) (width 0.001))
   (fp_line (start -4.54834 -7.66236) (end -4.54834 5.33736) (layer F.Fab) (width 0.001))
   (fp_line (start 4.44834 -7.66236) (end -4.54834 -7.66236) (layer F.Fab) (width 0.001))
-  (fp_line (start -4.51786 -7.66236) (end -4.54834 -7.63188) (layer F.Fab) (width 0.001))
   (pad A1 smd oval (at -3.24786 -7.16198 270) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad B1 smd oval (at -3.24786 -6.36188 270) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad C1 smd oval (at -3.24786 -5.56178 270) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
@@ -112,6 +111,6 @@
   (model Housing_BGA/FBGA-96_14x9mm.wrl
     (at (xyz 0 0.04 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
