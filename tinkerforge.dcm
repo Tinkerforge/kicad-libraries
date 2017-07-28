@@ -81,6 +81,12 @@ K ampliop
 F op_amps/lmc6082.pdf
 $ENDCMP
 #
+$CMP LTV-847
+D DIP-16, Quad DC Optocoupler, Vce 35V, CTR 50%
+K NPN DC Quad Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
 $CMP MC33178
 D Dual audio Op amp (ultra low noise)
 K ampliop audio
