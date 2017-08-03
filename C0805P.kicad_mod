@@ -1,4 +1,4 @@
-(module 0805P (layer F.Cu) (tedit 5983211C)
+(module C0805P (layer F.Cu) (tedit 5983211C)
   (fp_text reference C6 (at 0 -0.3) (layer F.Fab)
     (effects (font (size 0.29972 0.2992) (thickness 0.0748)))
   )
