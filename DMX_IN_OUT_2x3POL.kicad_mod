@@ -1,4 +1,4 @@
-(module DMX_IN_OUT_2x3POL (layer F.Cu) (tedit 598C71A5)
+(module DMX_IN_OUT_2x3POL (layer F.Cu) (tedit 598D6469)
   (fp_text reference P3 (at 10.85 -6.58) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,4 +21,6 @@
   (pad 3 thru_hole circle (at 12.31 -33.55) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 8.25 -29.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 16.37 -29.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+  (pad 8 thru_hole circle (at -12.34 -25.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 7 thru_hole circle (at 12.31 -25.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
 )
