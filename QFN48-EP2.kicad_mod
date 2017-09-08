@@ -1,4 +1,4 @@
-(module QFN48-EP2 (layer F.Cu) (tedit 590C4F51)
+(module QFN48-EP2 (layer F.Cu) (tedit 59B24FEB)
   (fp_text reference U1 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
   )
