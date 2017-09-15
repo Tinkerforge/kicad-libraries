@@ -12,4 +12,9 @@
   (pad 1 thru_hole circle (at -3.49758 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 3.50012 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
+  (model Connectors/OQ_3P_grey.wrl
+    (at (xyz 0 -0.121 0.14))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
