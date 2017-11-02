@@ -17,4 +17,9 @@
   (pad "" thru_hole circle (at -56.65 5.625) (size 3.2 3.2) (drill 2) (layers *.Cu *.Mask F.SilkS))
   (pad A thru_hole circle (at 29.55 4) (size 3.2 3.2) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad B thru_hole circle (at 29.55 -4) (size 3.2 3.2) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+  (model Potentiometers/RSA0N11M9A0J.wrl
+    (at (xyz 0 0 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
 )
