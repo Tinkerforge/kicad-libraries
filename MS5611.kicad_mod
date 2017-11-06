@@ -22,7 +22,7 @@
   (pad 6 smd rect (at 0.62484 -1.30048) (size 0.59944 1.50114) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -0.62484 -1.30048) (size 0.59944 1.50114) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -1.87452 -1.30048) (size 0.59944 1.50114) (layers F.Cu F.Paste F.Mask))
-  (model unsorted/MS5611-barometer.wrl
+  (model Sensors_Detectors/MS5611-barometer.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
