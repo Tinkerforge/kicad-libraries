@@ -1,0 +1,2 @@
+black PCB: pcb_color = 0.2,0.2,0.2,darkgrey (25,25,25)
+red PCB  : pcb_color = 0.8,0.1,0.1,red (170,25,25)
