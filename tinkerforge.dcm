@@ -54,6 +54,11 @@ $CMP D
 D Diode
 $ENDCMP
 #
+$CMP DUAL_MOSFET_N_CH
+D Transistor N-MOSFET
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP D_Bridge
 D Diode bridge (pins: 1=-, 2=AC, 3=+, 4=AC)
 K rectifier acdc
