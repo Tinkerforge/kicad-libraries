@@ -104,6 +104,11 @@ K NPN DC Quad Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
+$CMP MAX232
+D Driver de Ligne RS232
+K RS232
+$ENDCMP
+#
 $CMP MC33178
 D Dual audio Op amp (ultra low noise)
 K ampliop audio
