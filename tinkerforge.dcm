@@ -144,6 +144,11 @@ D 8 resistors Pack
 K R DEV
 $ENDCMP
 #
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
 $CMP TL072
 D Dual Op amp (low power)
 K ampliop
