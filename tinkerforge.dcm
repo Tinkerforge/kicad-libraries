@@ -54,6 +54,11 @@ $CMP D
 D Diode
 $ENDCMP
 #
+$CMP DB9_Male
+D 9-pin male D-SUB connector
+K connector male D-SUB
+$ENDCMP
+#
 $CMP DUAL_MOSFET_N_CH
 D Transistor N-MOSFET
 K nmos n-mos n-mosfet transistor
