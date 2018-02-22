@@ -52,6 +52,10 @@ $CMP CONN_01X08
 D Connector 01x08
 $ENDCMP
 #
+$CMP CONN_01X09
+D Connector 01x09
+$ENDCMP
+#
 $CMP CONN_21
 D Symbole general de connexion
 K CONN
