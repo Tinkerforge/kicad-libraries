@@ -1,4 +1,4 @@
-(module D1206_INV (layer F.Cu) (tedit 5A859300)
+(module D1206_INV (layer F.Cu) (tedit 5A96B9ED)
   (attr smd)
   (fp_text reference D2 (at -0.8 0.55) (layer F.Fab)
     (effects (font (size 0.2 0.2) (thickness 0.05)))
@@ -26,6 +26,6 @@
   (model LED_SMD/D1206_INV_blue.wrl
     (at (xyz 0 0 0.0075))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 180))
+    (rotate (xyz 0 180 90))
   )
 )

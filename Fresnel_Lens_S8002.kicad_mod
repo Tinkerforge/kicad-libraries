@@ -17,6 +17,6 @@
   (model unsorted/Fresnel_lens_S8002.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

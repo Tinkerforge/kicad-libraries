@@ -18,8 +18,8 @@
   (pad "" smd rect (at -14.7 -5.5) (size 1.8 5) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -12.16 -5.5) (size 1.8 5) (layers F.Cu F.Paste F.Mask))
   (model unsorted/RFM210LCF-S1.wrl
-    (at (xyz 0 0 0.0254))
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 90))
+    (rotate (xyz 0 0 180))
   )
 )
