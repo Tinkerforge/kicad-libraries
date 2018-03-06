@@ -1,4 +1,4 @@
-(module SO-8 (layer F.Cu) (tedit 5A5CB895)
+(module SO-8 (layer F.Cu) (tedit 5A9E8BDE)
   (attr smd)
   (fp_text reference U2 (at 0 0) (layer F.Fab)
     (effects (font (size 0.3 0.3) (thickness 0.075)))
@@ -17,4 +17,9 @@
   (pad 6 smd rect (at 0.63246 -2.86766) (size 0.79756 2.19964) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -0.63246 -2.86766) (size 0.79756 2.19964) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -1.90246 -2.86766) (size 0.79756 2.19964) (layers F.Cu F.Paste F.Mask))
+  (model Housing_SO/SO-8.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
