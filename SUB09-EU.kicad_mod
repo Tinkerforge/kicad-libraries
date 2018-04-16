@@ -25,9 +25,9 @@
   (pad 7 thru_hole circle (at -1.27 -2.54) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 8 thru_hole circle (at 1.397 -2.54) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at 4.191 -2.54) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model conn_DBxx/db9_female_pin90deg.wrl
-    (at (xyz 0 0 0))
+  (model Connectors/DSUB9-Male.wrl
+    (at (xyz 0.61 0.42 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 180 0))
   )
 )
