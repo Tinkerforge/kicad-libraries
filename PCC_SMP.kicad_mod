@@ -24,4 +24,9 @@
   (pad 2 thru_hole circle (at 6.8 6.75) (size 3.2 3.2) (drill 1.77) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at 7.9 -6.75) (size 3.2 3.2) (drill 1.77) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at -7.9 -6.75) (size 3.2 3.2) (drill 1.77) (layers *.Cu *.Mask F.SilkS))
+  (model Connectors/PCC-SMP.wrl
+    (at (xyz 0 0.06 0.01))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
 )
