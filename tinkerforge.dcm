@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +VSW
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP 74LVC1G17
 D buffer with Schmitt trigger.
 $ENDCMP
