@@ -70,6 +70,18 @@ D 4 resistors Pack
 K R DEV
 $ENDCMP
 #
+$CMP Conn_01x04
+D Generic connector, single row, 01x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x05
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
 $CMP D
 D Diode
 $ENDCMP
