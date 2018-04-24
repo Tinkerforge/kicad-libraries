@@ -1,7 +1,7 @@
 (module raspberrypi2 (layer F.Cu) (tedit 5A24F7B2)
   (descr "RaspberryPi 2")
   (tags CONN)
-  (fp_text reference J2 (at -13.97 0) (layer F.Fab)
+  (fp_text reference J102 (at -13.97 0) (layer F.Fab)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
   (fp_text value Raspberry_Pi_2_3 (at 0 0) (layer F.Fab)
@@ -63,9 +63,14 @@
   (pad "" np_thru_hole circle (at 29 0) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -29 49) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 29 49) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
-  (model pin_array/pins_array_13x2.wrl
-    (at (xyz 0 0 0))
+  (model unsorted/raspberryPi3b-simple.wrl
+    (at (xyz 0.39 -0.968 -0.72))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 180 180))
+  )
+  (model Pin_Header/Pin_Header_Straight_Female_2x20_RaspPi.wrl
+    (at (xyz 0 0 -0.25))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 90))
   )
 )
