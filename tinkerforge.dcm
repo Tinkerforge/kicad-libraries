@@ -223,6 +223,11 @@ K ampliop
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP VCCPWR
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP ZENER
 D Diode zener
 K DEV DIODE
