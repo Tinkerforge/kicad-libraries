@@ -12,4 +12,9 @@
   (fp_line (start 1.79832 -2.90068) (end 3.1496 -2.90068) (layer F.Fab) (width 0.381))
   (pad 1 thru_hole circle (at 2.49936 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -2.49936 0) (size 1.99898 1.99898) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
+  (model Capacitors_wired/c_elko_10x10.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

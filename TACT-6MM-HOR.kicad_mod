@@ -16,4 +16,9 @@
   (pad "" thru_hole circle (at 3.5 2.49) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -2.25 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.25 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (model Buttons_Switches/TACT-6MM-HOR.wrl
+    (at (xyz 0 -0.1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
 )
