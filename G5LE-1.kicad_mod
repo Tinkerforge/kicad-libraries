@@ -17,6 +17,6 @@
   (model Buttons_Switches/G5LE-1-Relay.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 270 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
