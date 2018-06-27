@@ -65,6 +65,10 @@ $CMP CONN_01X10
 D Connector 01x10
 $ENDCMP
 #
+$CMP CONN_01X12
+D Connector 01x12
+$ENDCMP
+#
 $CMP CONN_02X03
 D Connector 02x03
 $ENDCMP
