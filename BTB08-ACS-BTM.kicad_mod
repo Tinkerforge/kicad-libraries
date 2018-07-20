@@ -1,6 +1,6 @@
 (module BTB08-ACS-BTM (layer F.Cu) (tedit 58F76EA9)
   (attr smd)
-  (fp_text reference J8 (at -0.025 -0.625) (layer F.Fab)
+  (fp_text reference J7 (at -0.025 -0.625) (layer F.Fab)
     (effects (font (size 0.3 0.3) (thickness 0.075)))
   )
   (fp_text value STACK-DOWN (at -0.025 0.575) (layer F.Fab)
@@ -59,8 +59,8 @@
   (pad "" thru_hole circle (at 7.59968 1.69926) (size 0.8001 0.8001) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at -7.59968 1.69926) (size 0.8001 0.8001) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (model Connectors_TF/btb_btm.wrl
-    (at (xyz -0.32125 0 0))
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 180))
+    (rotate (xyz 0 180 90))
   )
 )
