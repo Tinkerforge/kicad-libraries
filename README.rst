@@ -20,3 +20,7 @@ Raspberry-Pi-Compute-Socket
 Author: JoanTheSpark
 https://github.com/JoanTheSpark/KiCAD/blob/master/components/KiCADinfo_RPi-modules.lib
 https://github.com/JoanTheSpark/KiCAD/blob/master/footprints/Conn_TE-DDR2-SODIMM-0.6-200P-doublesided.kicad_mod
+
+HDMI_TH
+Tim Ansell
+https://github.com/mithro/edid-injector/blob/master/hardware/hdmi/hdmi.pretty/hdmi.kicad_mod
