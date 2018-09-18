@@ -1,5 +1,5 @@
-(module SCD30 (layer F.Cu) (tedit 5B92A6BD)
-  (fp_text reference REF** (at -18 -12) (layer F.SilkS)
+(module SCD30 (layer F.Cu) (tedit 5BA0ACA8)
+  (fp_text reference U6 (at -18 -12) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SCD30 (at -18 -17) (layer F.Fab)
@@ -17,4 +17,9 @@
   (pad 3 thru_hole circle (at -6.48 -1.4) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.94 -1.4) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -1.4 -1.4) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (model ${KICAD_SYMBOL_DIR}/3d/Sensors_Detectors/SCD30.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
