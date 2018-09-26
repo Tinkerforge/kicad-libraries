@@ -1,5 +1,5 @@
-(module HRLV-EZ (layer F.Cu) (tedit 5BAB52FC)
-  (fp_text reference REF** (at 0.1 -2.2) (layer F.SilkS)
+(module HRLV-EZ (layer F.Cu) (tedit 5BAB905C)
+  (fp_text reference U6 (at 0.1 -2.2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value HRLV-EZ (at -0.2 -4.1) (layer F.Fab)
@@ -20,4 +20,9 @@
   (pad 7 thru_hole circle (at -5.94 -8.9) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -8.54 -5.34) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 8.46 7.26) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Sensors_Detectors/HRLV-EZ.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
