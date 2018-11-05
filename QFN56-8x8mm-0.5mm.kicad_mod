@@ -1,4 +1,4 @@
-(module Test (layer F.Cu) (tedit 5BDC1119)
+(module QFN56-8x8mm-0.5mm (layer F.Cu) (tedit 5BDC1119)
   (fp_text reference QFN56-8x8mm-0.5mm (at 0 0) (layer F.Fab)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
