@@ -12583,13 +12583,10 @@ F1 "barrel-plug" 0 -200 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
-T 0 100 100 50 0 0 0 center Normal 0 C C
-T 0 100 0 50 0 0 0 outer Normal 0 C C
-T 0 100 -100 50 0 0 0 switch Normal 0 C C
-S -300 150 300 -150 0 0 0 N
-X 1 ~ -400 100 200 R 50 50 1 1 I
-X 2 ~ -400 0 200 R 50 50 1 1 I
-X 3 ~ -400 -100 200 R 50 50 1 1 I
+S -200 150 250 -150 0 1 0 N
+X center 1 -400 100 200 R 50 50 1 1 I
+X outer 2 -400 0 200 R 50 50 1 1 I
+X switch 3 -400 -100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -12637,15 +12634,11 @@ F1 "phone-jack" 100 -250 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
-T 0 150 -50 50 0 0 0 ring Normal 0 C C
-T 0 150 150 50 0 0 0 sleeve Normal 0 C C
-T 0 150 50 50 0 0 0 tip Normal 0 C C
-T 0 150 -150 50 0 0 0 "tip switch" Normal 0 C C
 S -250 200 400 -200 0 0 0 N
-X 1 ~ -400 150 200 R 50 50 1 1 I
-X 2 ~ -400 50 200 R 50 50 1 1 I
-X 3 ~ -400 -50 200 R 50 50 1 1 I
-X 4 ~ -400 -150 200 R 50 50 1 1 I
+X sleeve 1 -400 150 200 R 50 50 1 1 I
+X tip 2 -400 50 200 R 50 50 1 1 I
+X ring 3 -400 -50 200 R 50 50 1 1 I
+X tip_switch 4 -400 -150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
