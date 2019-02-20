@@ -1,5 +1,5 @@
-(module BD906XX-C-HRP7 (layer F.Cu) (tedit 5C619F18)
-  (fp_text reference REF** (at 0 0.5) (layer F.Fab)
+(module BD906XX-C-HRP7 (layer F.Cu) (tedit 5C6D69A4)
+  (fp_text reference U201 (at 0 0.5) (layer F.Fab)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
   (fp_text value BD906XX-C-HRP7 (at 0 -0.5) (layer F.Fab)
@@ -17,4 +17,9 @@
   (pad 2 smd rect (at -2.54 6.125) (size 0.93 1.37) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -3.81 6.125) (size 0.93 1.37) (layers F.Cu F.Paste F.Mask))
   (pad EXP smd rect (at 0 0) (size 10 9) (layers F.Cu F.Paste F.Mask))
+  (model ${KICAD_SYMBOL_DIR}/3d/unsorted/BD90640HFP_C.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
