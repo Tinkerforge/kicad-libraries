@@ -1,4 +1,4 @@
-(module 7499110122 (layer F.Cu) (tedit 5D25A59D)
+(module 7499111446 (layer F.Cu) (tedit 5D25A5A9)
   (fp_text reference J401 (at 0 0.5) (layer F.Fab)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
