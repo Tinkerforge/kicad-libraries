@@ -1,4 +1,4 @@
-(module XCVR_NRF9160-SIBA-R (layer F.Cu) (tedit 5D88715D)
+(module XCVR_NRF9160-SIBA-R (layer F.Cu) (tedit 5D8874C8)
   (attr smd)
   (fp_text reference XCVR_NRF9160-SIBA-R (at 0.1 -2) (layer F.Fab)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
@@ -181,4 +181,9 @@
   (pad 103_33 smd rect (at 6 0) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 103_34 smd rect (at 6 -1.6) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 103_35 smd rect (at 6 -3.2) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+  (model ${KICAD_SYMBOL_DIR}/3d/Housings_LGA/NRF9160-SIBA-R.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
