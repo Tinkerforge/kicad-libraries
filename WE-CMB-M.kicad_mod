@@ -1,4 +1,4 @@
-(module WE-CMB-M (layer F.Cu) (tedit 5DB99FC5)
+(module WE-CMB-M (layer F.Cu) (tedit 5DC1655F)
   (fp_text reference REF** (at 0 0.5) (layer F.Fab)
     (effects (font (size 0.15 0.15) (thickness 0.0375)))
   )
