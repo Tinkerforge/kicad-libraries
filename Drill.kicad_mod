@@ -1,9 +1,14 @@
-(module Drill (layer F.Cu) (tedit 4D9D9253)
-  (fp_text reference Drill (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
+(footprint "Drill" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 4D9D9253)
+  (attr through_hole)
+  (fp_text reference "Drill" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
+    (tstamp e3aae6b2-b0a8-4db3-ac57-b0a374f19d5c)
   )
-  (fp_text value Val** (at 0 0.50038) (layer F.SilkS) hide
-    (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
+  (fp_text value "Val**" (at 0 0.50038) (layer "F.Fab") hide
+    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
+    (tstamp 0ce975a5-4d65-4706-9886-3f62644b9533)
   )
-  (pad "" thru_hole circle (at 0 0) (size 4.699 4.699) (drill 2.99974) (layers *.Cu *.SilkS *.Mask))
+  (pad "1" thru_hole circle (at 0 0) (size 4.7 4.7) (drill 3) (layers *.Cu *.Mask) (tstamp 04ce584c-6b30-4e6e-84d4-d472dc489611))
 )
