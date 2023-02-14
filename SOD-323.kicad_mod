@@ -16,7 +16,7 @@
   (fp_line (start -0.89916 0.70104) (end -0.89916 -0.70104) (layer F.Fab) (width 0.001))
   (pad 1 smd rect (at -1.3208 0) (size 0.762 0.6858) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.3208 0) (size 0.762 0.6858) (layers F.Cu F.Paste F.Mask))
-  (model Housing_SOT_SOD/SOD323F.wrl
+  (model ${KICAD6_3RD_PARTY}/Housing_SOT_SOD/SOD323F.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

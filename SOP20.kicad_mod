@@ -31,7 +31,7 @@
   (pad 18 smd rect (at -3.17246 -4.79806) (size 0.6985 1.59766) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at -4.44246 -4.79806) (size 0.6985 1.59766) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at -5.71246 -4.79806) (size 0.6985 1.59766) (layers F.Cu F.Paste F.Mask))
-  (model Housing_SSOP/SOP-20.wrl
+  (model ${KICAD6_3RD_PARTY}/Housing_SSOP/SOP-20.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

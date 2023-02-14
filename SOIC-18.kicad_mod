@@ -33,7 +33,7 @@
   (pad 16 smd rect (at 4.7 -2.54) (size 2 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 17 smd rect (at 4.7 -3.81) (size 2 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 18 smd rect (at 4.7 -5.08) (size 2 0.6) (layers F.Cu F.Paste F.Mask))
-  (model Housings_SOIC/SOIC-18_7.5x11.6mm_Pitch1.27mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_SOIC/SOIC-18_7.5x11.6mm_Pitch1.27mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

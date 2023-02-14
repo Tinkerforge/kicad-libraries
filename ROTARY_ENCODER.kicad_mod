@@ -17,7 +17,7 @@
   (pad SW2 thru_hole circle (at -7 2.5) (size 2 2) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 0 5.6) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 0 -5.6) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
-  (model RotaryEncoder.wrl
+  (model ${KICAD6_3RD_PARTY}/RotaryEncoder.wrl
     (at (xyz 0.005 0 0.23))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))

@@ -20,7 +20,7 @@
   (pad 7 smd circle (at -5.94 -8.9) (size 1.8 1.8) (layers F.Cu F.Paste F.Mask))
   (pad "" smd circle (at -8.54 -5.34) (size 3.5 3.5) (layers F.Cu F.Paste F.Mask))
   (pad "" smd circle (at 8.46 7.26) (size 3.5 3.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Sensors_Detectors/HRLV-EZ.step
+  (model ${KICAD6_3RD_PARTY}/${KISYS3DMOD}/Sensors_Detectors/HRLV-EZ.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

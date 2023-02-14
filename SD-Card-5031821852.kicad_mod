@@ -24,7 +24,7 @@
   (pad S smd rect (at 4.94 7.1) (size 1.5 1.2) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 6.74 6) (size 1.16 1.2) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 6.74 -3) (size 1.16 1.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Connectors/5031821852.wrl
+  (model ${KICAD6_3RD_PARTY}/${KISYS3DMOD}/Connectors/5031821852.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

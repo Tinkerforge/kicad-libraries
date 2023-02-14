@@ -87,7 +87,7 @@
   (pad SHD smd rect (at -0.9 -5.3) (size 0.65 0.65) (layers F.Cu F.Paste F.Mask))
   (pad SHD smd rect (at -1.8 -5.3) (size 0.65 0.65) (layers F.Cu F.Paste F.Mask))
   (pad SHD smd rect (at -2.7 -5.3) (size 0.65 0.65) (layers F.Cu F.Paste F.Mask))
-  (model Sensors_Detectors/FLIR-500-0763-01_module_socket.wrl
+  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/FLIR-500-0763-01_module_socket.wrl
     (at (xyz 0 0 0.08))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

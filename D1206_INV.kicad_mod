@@ -23,7 +23,7 @@
   (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -1.8 0) (size 1.5 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.8 0) (size 1.5 1.6) (layers F.Cu F.Paste F.Mask))
-  (model LED_SMD/D1206_INV_blue.wrl
+  (model ${KICAD6_3RD_PARTY}/LED_SMD/D1206_INV_blue.wrl
     (at (xyz 0 0 0.0075))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))

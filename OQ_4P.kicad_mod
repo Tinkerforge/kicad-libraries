@@ -13,7 +13,7 @@
   (pad 3 thru_hole circle (at 1.75006 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 5.25018 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -5.25018 0) (size 2.4003 2.4003) (drill 1.39954) (layers *.Cu *.Mask F.SilkS))
-  (model Connectors/OQ_4P_green.wrl
+  (model ${KICAD6_3RD_PARTY}/Connectors/OQ_4P_green.wrl
     (at (xyz 0 -0.125 0.14))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

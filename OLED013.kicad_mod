@@ -35,7 +35,7 @@
   (pad 28 smd rect (at 8.74776 0 180) (size 0.29972 1.99898) (layers F.Cu F.Paste F.Mask))
   (pad 29 smd rect (at 9.4488 0 180) (size 0.29972 1.99898) (layers F.Cu F.Paste F.Mask))
   (pad 30 smd rect (at 10.14984 0 180) (size 0.29972 1.99898) (layers F.Cu F.Paste F.Mask))
-  (model unsorted/OLED_128x64.wrl
+  (model ${KICAD6_3RD_PARTY}/unsorted/OLED_128x64.wrl
     (at (xyz 0 0.17 -0.08))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 180))

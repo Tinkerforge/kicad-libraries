@@ -25,7 +25,7 @@
   (pad 5 thru_hole circle (at 9.935 27.64) (size 1.5 1.5) (drill 0.85) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 9.935 25.74) (size 1.5 1.5) (drill 0.85) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 9.935 23.84) (size 1.5 1.5) (drill 0.85) (layers *.Cu *.Mask))
-  (model ../3d/Sensors_Detectors/4641-X900.wrl
+  (model ${KICAD6_3RD_PARTY}/../3d/Sensors_Detectors/4641-X900.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

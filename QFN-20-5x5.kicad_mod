@@ -36,7 +36,7 @@
   (pad 19 smd rect (at -2.3876 0.6477 90) (size 0.34798 1.14808) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at -2.3876 1.29794 90) (size 0.34798 1.14808) (layers F.Cu F.Paste F.Mask))
   (pad EP smd rect (at 0 0) (size 2.49936 2.49936) (layers F.Cu F.Paste F.Mask))
-  (model Housings_DFN_QFN/QFN-20-5x5mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_DFN_QFN/QFN-20-5x5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

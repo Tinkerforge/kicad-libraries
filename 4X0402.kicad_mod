@@ -18,7 +18,7 @@
   (pad 6 smd rect (at 0.24892 -0.575) (size 0.29972 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -0.24892 -0.575) (size 0.29972 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -0.7493 -0.575) (size 0.29972 0.65) (layers F.Cu F.Paste F.Mask))
-  (model Resistors_SMD/R_4x0402.wrl
+  (model ${KICAD6_3RD_PARTY}/Resistors_SMD/R_4x0402.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

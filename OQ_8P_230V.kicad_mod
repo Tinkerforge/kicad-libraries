@@ -52,7 +52,7 @@
   (pad "6" thru_hole roundrect (at 5.25018 0) (size 1.6 2.5) (drill 1.4) (layers *.Cu *.Mask "F.SilkS") (roundrect_rratio 0.25) (tstamp 87f0a9b2-e097-41bf-9827-8a5cb7cda766))
   (pad "7" thru_hole roundrect (at 8.7503 0) (size 1.6 2.5) (drill 1.4) (layers *.Cu *.Mask "F.SilkS") (roundrect_rratio 0.25) (tstamp dcf7f5c1-6f1c-4a4a-bae0-f8e8c69fa0b5))
   (pad "8" thru_hole roundrect (at 12.25042 0) (size 1.6 2.5) (drill 1.4) (layers *.Cu *.Mask "F.SilkS") (roundrect_rratio 0.25) (tstamp c096ba70-63ea-420c-8972-056198be8c67))
-  (model "Connectors/OQ_8P_green.wrl"
+  (model ${KICAD6_3RD_PARTY}/"Connectors/OQ_8P_green.wrl"
     (offset (xyz 0 -3.174999952 3.555999947))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

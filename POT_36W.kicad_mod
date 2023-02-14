@@ -17,7 +17,7 @@
   (pad 2 thru_hole circle (at 0 1.09982) (size 2.19964 2.19964) (drill 1.09982) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -2.49936 -1.39954) (size 2.19964 2.19964) (drill 1.09982) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 2.49936 -1.39954) (size 2.19964 2.19964) (drill 1.09982) (layers *.Cu *.Mask F.SilkS))
-  (model Potentiometers/POT-3306W.wrl
+  (model ${KICAD6_3RD_PARTY}/Potentiometers/POT-3306W.wrl
     (at (xyz 0 0.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 270 0 0))

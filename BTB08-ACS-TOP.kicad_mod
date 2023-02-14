@@ -58,7 +58,7 @@
   (pad EP smd rect (at -7.69874 0) (size 1.80086 1.99898) (layers F.Cu F.Paste F.Mask))
   (pad "" thru_hole circle (at 7.59968 1.69926) (size 0.8001 0.8001) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at -7.59968 1.69926) (size 0.8001 0.8001) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-  (model Connectors_TF/btb_top.wrl
+  (model ${KICAD6_3RD_PARTY}/Connectors_TF/btb_top.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 270))

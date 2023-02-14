@@ -18,7 +18,7 @@
   (pad 7 thru_hole circle (at 1.75 -7.675) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at -1.75 -7.675) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at -5.25 -7.675) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD_SYMBOL_DIR}/3d/Inductors/749118115.wrl
+  (model ${KICAD6_3RD_PARTY}/3d/Inductors/749118115.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

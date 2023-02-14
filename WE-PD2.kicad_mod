@@ -12,7 +12,7 @@
   (fp_circle (center -1.7 -1.2) (end -1.6 -1.1) (layer F.Fab) (width 0.12))
   (pad 1 smd rect (at -1.75 0) (size 2 4.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.75 0) (size 2 4.5) (layers F.Cu F.Paste F.Mask))
-  (model Inductors/WE-PD2.wrl
+  (model ${KICAD6_3RD_PARTY}/Inductors/WE-PD2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

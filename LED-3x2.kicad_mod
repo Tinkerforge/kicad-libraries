@@ -12,7 +12,7 @@
   (fp_line (start -1.5 1) (end -1.5 -1) (layer F.Fab) (width 0.01))
   (pad 1 smd rect (at -1.55 0.05) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.55 0) (size 1.6 1.4) (layers F.Cu F.Paste F.Mask))
-  (model LED_SMD/D_2x3mm_white.wrl
+  (model ${KICAD6_3RD_PARTY}/LED_SMD/D_2x3mm_white.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

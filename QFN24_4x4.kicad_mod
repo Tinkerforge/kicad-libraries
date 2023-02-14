@@ -52,7 +52,7 @@
     (solder_paste_margin_ratio -0.2))
   (pad 25 smd rect (at -0.65 -0.65) (size 1.3 1.3) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.2))
-  (model Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_Pitch0.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

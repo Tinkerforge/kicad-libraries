@@ -50,7 +50,7 @@
   (pad G3 thru_hole circle (at 7.62 -2.54) (size 1.4986 1.4986) (drill 0.99822) (layers *.Cu *.Mask F.SilkS))
   (pad G2 thru_hole circle (at 7.62 0) (size 1.4986 1.4986) (drill 0.99822) (layers *.Cu *.Mask F.SilkS))
   (pad G1 thru_hole circle (at 7.62 2.54) (size 1.4986 1.4986) (drill 0.99822) (layers *.Cu *.Mask F.SilkS))
-  (model Pin_Header/Pin_Header_Angled_3x7.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Header/Pin_Header_Angled_3x7.wrl
     (at (xyz 0 -0.195 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

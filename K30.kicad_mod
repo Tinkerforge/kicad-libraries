@@ -28,22 +28,22 @@
   (pad "" np_thru_hole circle (at -1.905 -21.59) (size 2.3 2.3) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -25.405 -22.23) (size 3.17 3.17) (drill 3.17) (layers *.Cu *.SilkS))
   (pad "" np_thru_hole circle (at 25.4 22.222) (size 3.17 3.17) (drill 3.17) (layers *.Cu *.SilkS))
-  (model Sensors_Detectors/SenseAir_K30.wrl
+  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/SenseAir_K30.wrl
     (at (xyz 0 0 0.19685))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Pin_Header/Pin_Header_Straight_1x05.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Header/Pin_Header_Straight_1x05.wrl
     (at (xyz -0.65 -0.9 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model Pin_Header/Pin_Header_Straight_1x05.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Header/Pin_Header_Straight_1x05.wrl
     (at (xyz 0.75 -0.9 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model Pin_Header/Pin_Header_Straight_1x02.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Header/Pin_Header_Straight_1x02.wrl
     (at (xyz -0.08 0.95 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

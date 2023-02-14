@@ -64,7 +64,7 @@
   (pad MNT smd rect (at 18.5 3.5) (size 2.3 3.2) (layers F.Cu F.Paste F.Mask))
   (pad MNT thru_hole rect (at -8.25 -48.05) (size 5.8 5.8) (drill 2.6) (layers *.Cu *.Mask))
   (pad MNT thru_hole rect (at 15.95 -48.05) (size 5.8 5.8) (drill 2.6) (layers *.Cu *.Mask))
-  (model Connectors/Mini-PCIE.wrl
+  (model ${KICAD6_3RD_PARTY}/Connectors/Mini-PCIE.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

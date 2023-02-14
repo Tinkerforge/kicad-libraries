@@ -14,7 +14,7 @@
   (pad 4 smd rect (at 3.81 -3.11) (size 2.7 2.7) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 3.81 3.11) (size 2.7 2.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3.81 3.11) (size 2.7 2.7) (layers F.Cu F.Paste F.Mask))
-  (model Inductors/WE-SL5.wrl
+  (model ${KICAD6_3RD_PARTY}/Inductors/WE-SL5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

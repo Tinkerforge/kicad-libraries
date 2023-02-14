@@ -34,7 +34,7 @@
   (pad 18 smd rect (at -1.4986 0 90) (size 0.24892 0.89916) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at -1.4986 0.39878 90) (size 0.24892 0.89916) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at -1.4986 0.79756 90) (size 0.24892 0.89916) (layers F.Cu F.Paste F.Mask))
-  (model Housings_DFN_QFN/LGA-16_3x3mm_Pitch0.5mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_DFN_QFN/LGA-16_3x3mm_Pitch0.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 270))

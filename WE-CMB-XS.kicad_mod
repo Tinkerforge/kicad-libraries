@@ -76,7 +76,7 @@
   (pad 3 thru_hole circle (at 2.25044 5.00126) (size 2.19964 2.19964) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.25044 -5.00126) (size 2.19964 2.19964) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -2.25044 -5.00126) (size 2.19964 2.19964) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD_SYMBOL_DIR}/3d/Inductors/WE-CMB-XS.wrl
+  (model ${KICAD6_3RD_PARTY}/3d/Inductors/WE-CMB-XS.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

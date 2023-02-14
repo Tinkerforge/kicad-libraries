@@ -9,7 +9,7 @@
   (fp_line (start 8.59 -6.24) (end 8.58 6.74) (layer F.Fab) (width 0.15))
   (fp_line (start 8.58 6.74) (end -9.75 6.74) (layer F.Fab) (width 0.15))
   (fp_line (start -9.75 6.74) (end -9.74 -6.24) (layer F.Fab) (width 0.15))
-  (model unsorted/heatsink.wrl
+  (model ${KICAD6_3RD_PARTY}/unsorted/heatsink.wrl
     (at (xyz 0 0 0.09))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

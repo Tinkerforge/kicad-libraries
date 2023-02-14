@@ -15,7 +15,7 @@
   (pad S smd rect (at -0.889 -1.016) (size 0.9144 0.9144) (layers F.Cu F.Paste F.Mask))
   (pad G smd rect (at 0.889 -1.016) (size 0.9144 0.9144) (layers F.Cu F.Paste F.Mask))
   (pad D smd rect (at 0 1.016) (size 0.9144 0.9144) (layers F.Cu F.Paste F.Mask))
-  (model Housing_SOT_SOD/SOT-23.wrl
+  (model ${KICAD6_3RD_PARTY}/Housing_SOT_SOD/SOT-23.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

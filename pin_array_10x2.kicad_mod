@@ -32,7 +32,7 @@
   (pad 18 thru_hole circle (at 8.89254 -1.27) (size 1.9 1.9) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
   (pad 19 thru_hole circle (at 11.43254 1.27) (size 1.9 1.9) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
   (pad 20 thru_hole circle (at 11.43254 -1.27) (size 1.9 1.9) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
-  (model Pin_Header/Pin_Header_Straight_2x10.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Header/Pin_Header_Straight_2x10.wrl
     (at (xyz 0.45 0.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

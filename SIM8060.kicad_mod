@@ -19,7 +19,7 @@
   (pad 5 smd rect (at 6.15 12.9) (size 1.3 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -6.15 4.1) (size 1.3 1.8) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -6.15 12.9) (size 1.3 1.8) (layers F.Cu F.Paste F.Mask))
-  (model unsorted/SIM8060.wrl
+  (model ${KICAD6_3RD_PARTY}/unsorted/SIM8060.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -77,12 +77,12 @@
   (pad "" np_thru_hole circle (at 29 0) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -29 49) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 29 49) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
-  (model unsorted/raspberryPi3b-simple.wrl
+  (model ${KICAD6_3RD_PARTY}/unsorted/raspberryPi3b-simple.wrl
     (at (xyz 0.39 -0.968 -0.72))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))
   )
-  (model Pin_Header/Pin_Header_Straight_Female_2x20_RaspPi.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Header/Pin_Header_Straight_Female_2x20_RaspPi.wrl
     (at (xyz 0 0 -0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))

@@ -22,7 +22,7 @@
   (fp_line (start -4.15036 4.15036) (end -4.15036 -4.15036) (layer F.Fab) (width 0.39878))
   (pad 2 smd rect (at -3.50012 0) (size 4.0005 1.99898) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 3.50012 0) (size 4.0005 1.99898) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD/c_elec_8x10.wrl
+  (model ${KICAD6_3RD_PARTY}/Capacitors_SMD/c_elec_8x10.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

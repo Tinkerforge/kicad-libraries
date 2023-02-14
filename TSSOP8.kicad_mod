@@ -21,7 +21,7 @@
   (pad 6 smd rect (at 0.32258 -2.89814) (size 0.39878 1.29794) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -0.32258 -2.89814) (size 0.39878 1.29794) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -0.97282 -2.89814) (size 0.39878 1.29794) (layers F.Cu F.Paste F.Mask))
-  (model Housing_SSOP/TSSOP-8.wrl
+  (model ${KICAD6_3RD_PARTY}/Housing_SSOP/TSSOP-8.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

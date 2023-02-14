@@ -28,7 +28,7 @@
   (pad 14 thru_hole circle (at -3.81 -5.08) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 15 thru_hole circle (at -6.35 -5.08) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
   (pad 16 thru_hole circle (at -8.89 -5.08) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
-  (model unsorted/Segment_4x7.wrl
+  (model ${KICAD6_3RD_PARTY}/unsorted/Segment_4x7.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

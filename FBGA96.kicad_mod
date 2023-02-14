@@ -108,7 +108,7 @@
   (pad P9 smd oval (at 3.14786 3.23678 270) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad R9 smd oval (at 3.14786 4.03688 270) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
   (pad T9 smd oval (at 3.14786 4.83698 270) (size 0.39878 0.39878) (layers F.Cu F.Paste F.Mask))
-  (model Housing_BGA/FBGA-96_14x9mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housing_BGA/FBGA-96_14x9mm.wrl
     (at (xyz 0 0.04 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

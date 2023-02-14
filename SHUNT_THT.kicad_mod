@@ -20,7 +20,7 @@
   (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.3048))
   (pad 1 thru_hole circle (at -7.00024 0) (size 2.99974 2.99974) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 7.00024 0) (size 2.99974 2.99974) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
-  (model discret/resistor.wrl
+  (model ${KICAD6_3RD_PARTY}/discret/resistor.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3 0.3 0.3))
     (rotate (xyz 0 0 0))

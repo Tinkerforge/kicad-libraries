@@ -21,7 +21,7 @@
   (fp_line (start -5.00126 -3.60172) (end -5.00126 4.0005) (layer F.Fab) (width 0.381))
   (pad 1 thru_hole circle (at -2.54 0) (size 2.99974 2.99974) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.54 0) (size 2.99974 2.99974) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
-  (model Connectors/AKL_5_2_508_green.wrl
+  (model ${KICAD6_3RD_PARTY}/Connectors/AKL_5_2_508_green.wrl
     (at (xyz -0.007 0.003 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 270))

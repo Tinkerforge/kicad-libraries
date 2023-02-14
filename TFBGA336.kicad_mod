@@ -349,7 +349,7 @@
   (pad V20 smd oval (at 4.87426 -6.17474) (size 0.3175 0.3175) (layers F.Cu F.Paste F.Mask))
   (pad W20 smd oval (at 5.5245 -6.17474) (size 0.3175 0.3175) (layers F.Cu F.Paste F.Mask))
   (pad Y20 smd oval (at 6.17474 -6.17474) (size 0.3175 0.3175) (layers F.Cu F.Paste F.Mask))
-  (model Housing_BGA/TFBGA-336_14x14mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housing_BGA/TFBGA-336_14x14mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

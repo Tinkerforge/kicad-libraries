@@ -18,7 +18,7 @@
   (pad 4 smd rect (at 3.5 -4.2) (size 1.1 4) (layers F.Cu F.Paste F.Mask))
   (pad "" thru_hole circle (at -6.57 0) (size 3.5 3.5) (drill 2.3) (layers *.Cu *.Mask))
   (pad SHD thru_hole circle (at 6.57 0) (size 3.5 3.5) (drill 2.3) (layers *.Cu *.Mask))
-  (model Connectors/USB_Type_B_Socket.wrl
+  (model ${KICAD6_3RD_PARTY}/Connectors/USB_Type_B_Socket.wrl
     (offset (xyz 0 -3.428999948501587 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

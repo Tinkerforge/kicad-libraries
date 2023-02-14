@@ -19,7 +19,7 @@
   (pad 3 thru_hole circle (at 2 2.54 270) (size 1.52 1.52) (drill 0.81) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 4.7 7.27 270) (size 3.2 3.2) (drill 2.3) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 4.7 -4.73 270) (size 3.2 3.2) (drill 2.3) (layers *.Cu *.Mask))
-  (model Connectors.3dshapes/USB_B.wrl
+  (model ${KICAD6_3RD_PARTY}/Connectors.3dshapes/USB_B.wrl
     (at (xyz 0.18 -0.05 0))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 -90))

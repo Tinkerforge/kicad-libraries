@@ -17,7 +17,7 @@
   (pad 6 thru_hole circle (at 1.27 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 7 thru_hole circle (at -1.27 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 8 thru_hole circle (at -3.81 -3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
-  (model Buttons_Switches/SW_DIP_THT_.wrl
+  (model ${KICAD6_3RD_PARTY}/Buttons_Switches/SW_DIP_THT_.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

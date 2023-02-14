@@ -15,7 +15,7 @@
   (pad 3 thru_hole roundrect (at -2.5 0) (size 1.2 1.8) (drill 0.9 (offset -0.1 0)) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 1 thru_hole roundrect (at 2.5 0) (size 1.2 1.8) (drill 0.9 (offset 0.1 0)) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 2 thru_hole roundrect (at 0 0) (size 1 1.8) (drill 0.9) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/B03B-XASK-1.wrl
+  (model ${KICAD6_3RD_PARTY}/${KIPRJMOD}/B03B-XASK-1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

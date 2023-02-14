@@ -76,7 +76,7 @@
   (pad 63 smd oval (at -2.6 -4.5) (size 0.2 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 64 smd oval (at -3 -4.5) (size 0.2 1.5) (layers F.Cu F.Paste F.Mask))
   (pad EP smd rect (at 0 0) (size 4 4) (layers F.Cu F.Paste F.Mask))
-  (model Housings_QFP/LQFP-64_7x7mm_Pitch0.4mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_QFP/LQFP-64_7x7mm_Pitch0.4mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

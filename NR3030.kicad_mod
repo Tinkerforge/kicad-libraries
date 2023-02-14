@@ -14,7 +14,7 @@
     (clearance 0.14986))
   (pad 2 smd rect (at 1.19982 0) (size 1 2.70002) (layers F.Cu F.Paste F.Mask)
     (clearance 0.14986))
-  (model Inductors/NR303.wrl
+  (model ${KICAD6_3RD_PARTY}/Inductors/NR303.wrl
     (at (xyz 0 0 0.03))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

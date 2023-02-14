@@ -20,7 +20,7 @@
   (pad 3 smd rect (at 1.34874 -2.99974) (size 0.89916 1.30048) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.34874 2.99974) (size 0.89916 1.30048) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.34874 2.99974) (size 0.89916 1.30048) (layers F.Cu F.Paste F.Mask))
-  (model Housings_DIP/DIP-4-AD_SMD.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_DIP/DIP-4-AD_SMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

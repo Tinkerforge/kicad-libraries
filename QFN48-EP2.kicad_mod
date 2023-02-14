@@ -64,7 +64,7 @@
   (pad 47 smd rect (at -3.61188 2.2479 90) (size 0.29972 1.14808) (layers F.Cu F.Paste F.Mask))
   (pad 48 smd rect (at -3.61188 2.74828 90) (size 0.29972 1.14808) (layers F.Cu F.Paste F.Mask))
   (pad EP smd rect (at 0 0) (size 3.5 3.5) (layers F.Cu F.Paste F.Mask))
-  (model Housings_QFP/LQFP-48_7x7mm_Pitch0.5mm.wrl
+  (model ${KICAD6_3RD_PARTY}/Housings_QFP/LQFP-48_7x7mm_Pitch0.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

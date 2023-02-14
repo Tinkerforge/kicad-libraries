@@ -16,7 +16,7 @@
   (pad 2 thru_hole circle (at 0.635 -1.27) (size 1.05 1.05) (drill 0.65) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0.635 0) (size 1.05 1.05) (drill 0.65) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 0.635 1.27) (size 1.05 1.05) (drill 0.65) (layers *.Cu *.Mask))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x04.wrl
+  (model ${KICAD6_3RD_PARTY}/Pin_Headers.3dshapes/Pin_Header_Straight_1x04.wrl
     (offset (xyz 0 -3.809999942779541 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

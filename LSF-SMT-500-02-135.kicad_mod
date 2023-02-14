@@ -16,7 +16,7 @@
   (pad 1 thru_hole circle (at -2.5 2.5) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 2.5) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 2.5 -2.75) (size 1.8 3) (drill oval 1.1 1.8) (layers *.Cu *.Mask))
-  (model Connectors/LSF-SMT-500-02-135.stp
+  (model ${KICAD6_3RD_PARTY}/Connectors/LSF-SMT-500-02-135.stp
     (offset (xyz -4.6 -5.5 -3.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

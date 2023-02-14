@@ -35,7 +35,7 @@
   (pad 3 thru_hole circle (at 5.25 -1.27) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 8.75 -1.27) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 12.25 -1.27) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
-  (model Connectors/V7-8.step
+  (model ${KICAD6_3RD_PARTY}/Connectors/V7-8.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
