@@ -32,9 +32,9 @@
   (fp_line (start -2.286 1.905) (end 2.286 1.905) (layer "F.Fab") (width 0.127) (tstamp fcd65000-8651-495d-9522-092d7815bcf4))
   (pad "1" smd rect (at -2.11074 0) (size 1.62052 2.17932) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de08c477-b144-4e94-89d5-1bd94d528892))
   (pad "2" smd rect (at 2.11074 0) (size 1.62052 2.17932) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2eabc797-856f-4566-be6a-a298f5d50769))
-  (model ${KICAD6_3RD_PARTY}/"smd/do214.wrl"
-    (offset (xyz 0 0 0))
+  (model "${KICAD6_3DMODEL_DIR}/Housings_DO/DO-214AC.wrl"
+    (offset (xyz 2.032 1.3716 1.2192))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )

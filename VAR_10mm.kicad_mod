@@ -16,4 +16,9 @@
   (fp_line (start -6.3 -2.1) (end -6.3 2.1) (layer "F.Fab") (width 0.15) (tstamp d5d603f9-9d30-4303-b838-3862309041f6))
   (pad "1" thru_hole circle (at -3.75 0) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 80db2b45-1682-4900-a60b-4c5e02699d10))
   (pad "2" thru_hole circle (at 3.75 0) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 4213ef4f-7d6a-4546-937a-4e9427535389))
+  (model "${KICAD6_3DMODEL_DIR}/unsorted/MOV-10D431KTR.step"
+    (offset (xyz 0 0 10))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 -19))
+  )
 )

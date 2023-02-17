@@ -16,4 +16,9 @@
   (fp_line (start 12.19962 -4.699) (end -12.19962 -4.699) (layer "F.Fab") (width 0.381) (tstamp 915a4546-0254-4793-9e1c-ef5f3c73bc04))
   (pad "1" thru_hole circle (at -11.30046 0) (size 4.0005 4.0005) (drill 1.50114) (layers *.Cu *.Mask) (tstamp 88a42dcf-8a06-4568-b046-f1c700bfa452))
   (pad "2" thru_hole circle (at 11.30046 0) (size 4.0005 4.0005) (drill 1.50114) (layers *.Cu *.Mask) (tstamp 0fc01e65-b081-4669-b88e-5ba7ca14f313))
+  (model "${KICAD6_3DMODEL_DIR}/Fuses/0PTF0078P.step"
+    (offset (xyz 0 0 6.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

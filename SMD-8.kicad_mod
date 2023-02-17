@@ -25,4 +25,9 @@
   (pad "6" smd rect (at -1.27 5) (size 1.78 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 12dd8e63-262a-4e65-a52c-84435f4032a9))
   (pad "7" smd rect (at 1.27 5) (size 1.78 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8bf47bc8-6f79-45d8-84d6-f3f5b7282df2))
   (pad "8" smd rect (at 3.81 5) (size 1.78 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2e713d3c-e270-4d4a-b80b-3c1580d38e22))
+  (model "${KICAD6_3DMODEL_DIR}/Housings_DIP/PDIP-8.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
