@@ -87,4 +87,9 @@
     (clearance 0.89916) (tstamp a2163aa9-4fc5-4ec7-a316-75d5379bdd82))
   (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask "F.SilkS")
     (clearance 0.89916) (tstamp e5831ee0-61e1-493d-bcf3-bafe97f0b984))
+  (model "${KICAD6_3DMODEL_DIR}/unsorted/esp32-ethernet-brick.step"
+    (offset (xyz -2.5 -77.5 10))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
