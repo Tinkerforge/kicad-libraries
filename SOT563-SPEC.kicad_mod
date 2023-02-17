@@ -20,7 +20,7 @@
     (clearance 0.14986))
   (pad 6 smd rect (at -0.49784 -0.75) (size 0.29972 0.7) (layers F.Cu F.Paste F.Mask)
     (clearance 0.14986))
-  (model ${KICAD6_3RD_PARTY}/Housing_SOT_SOD/SOT-563.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housing_SOT_SOD/SOT-563.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

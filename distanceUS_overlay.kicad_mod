@@ -13,7 +13,7 @@
   (fp_line (start -5.08 1.27) (end -5.08 -1.27) (layer F.Fab) (width 0.3048))
   (fp_line (start 5.08 1.27) (end 5.08 -1.27) (layer F.Fab) (width 0.3048))
   (fp_line (start 5.08 1.27) (end -5.08 1.27) (layer F.Fab) (width 0.3048))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/HC-SR04.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/HC-SR04.wrl
     (at (xyz 0 -0.21 0.31))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

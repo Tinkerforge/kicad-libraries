@@ -27,7 +27,7 @@
   (pad 14 smd rect (at -3.80746 -4.49834) (size 1.4986 1.29794) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at -6.34746 -4.49834) (size 1.4986 1.29794) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at -8.88746 -4.49834) (size 1.4986 1.29794) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Housings_DIP/DIP-16_SMD.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housings_DIP/DIP-16_SMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -14,7 +14,7 @@
   (fp_line (start 2.30124 1.39954) (end 2.30124 -1.39954) (layer F.Fab) (width 0.381))
   (pad 1 smd rect (at -2.19964 0) (size 2.10058 1.80086) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.19964 0) (size 2.10058 1.80086) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Housings_DO/DO-214AC.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housings_DO/DO-214AC.wrl
     (at (xyz 0.08 0.054 0.048))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

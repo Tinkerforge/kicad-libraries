@@ -29,7 +29,7 @@
   (pad "" np_thru_hole circle (at 3.50012 4.20116) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad SHD smd rect (at -8.54964 -5.99948) (size 1.39954 2.49936) (layers F.Cu F.Paste F.Mask))
   (pad SHD smd rect (at 8.54964 -5.99948) (size 1.39954 2.49936) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Connectors/RJ45_slim_RJPSL-001TA1.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors/RJ45_slim_RJPSL-001TA1.wrl
     (offset (xyz 0 3.301999950408935 -2.539999961853027))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

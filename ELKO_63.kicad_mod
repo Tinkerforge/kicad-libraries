@@ -51,7 +51,7 @@
   (fp_circle (center 0 0) (end 3.2 0) (layer F.Fab) (width 0.15))
   (pad 2 smd rect (at -2.7 0) (size 3.5 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 2.7 0) (size 3.5 1.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Capacitors_SMD/c_elec_6.3x7.7.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Capacitors_SMD/c_elec_6.3x7.7.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

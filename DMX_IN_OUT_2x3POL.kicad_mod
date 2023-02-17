@@ -23,7 +23,7 @@
   (pad 2 thru_hole circle (at 16.37 -29.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 8 thru_hole circle (at -12.34 -25.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 12.31 -25.56) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KICAD6_3RD_PARTY}/Connectors/XLR_2x3.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors/XLR_2x3.wrl
     (at (xyz 0 0.54 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -11,7 +11,7 @@
   (fp_line (start -2.25044 2.10058) (end -2.25044 -2.10058) (layer F.Fab) (width 0.29972))
   (pad 1 smd rect (at 1.5 0) (size 1.5 3.70078) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.5 0) (size 1.5 3.70078) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Inductors/NR4040.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Inductors/NR4040.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

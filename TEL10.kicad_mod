@@ -15,7 +15,7 @@
   (pad 9 thru_hole circle (at 8.88 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 6.34 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at -8.9 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KICAD6_3RD_PARTY}/unsorted/tel10wi_cp.wrl
+  (model ${KICAD6_3DMODEL_DIR}/unsorted/tel10wi_cp.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

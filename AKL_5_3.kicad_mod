@@ -25,7 +25,7 @@
   (pad 1 thru_hole circle (at -5 0) (size 2.99974 2.99974) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 0) (size 2.99974 2.99974) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 5 0) (size 2.99974 2.99974) (drill 1.30048) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/Connectors/AKL_5_3.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors/AKL_5_3.wrl
     (at (xyz 0 -0.04 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

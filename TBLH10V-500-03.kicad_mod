@@ -32,7 +32,7 @@
   (pad "2" thru_hole circle (at 0 -2.75) (size 2 2) (drill 1.25) (layers *.Cu *.Mask) (tstamp ec03145d-b852-47d8-a3a4-dc02cfe2d6dd))
   (pad "3" thru_hole circle (at 5 2.75) (size 2 2) (drill 1.25) (layers *.Cu *.Mask) (tstamp 242cda62-a76e-45f1-b1d5-eee312326fea))
   (pad "3" thru_hole circle (at 5 -2.75) (size 2 2) (drill 1.25) (layers *.Cu *.Mask) (tstamp 3081b217-782f-4f53-88f9-ae86c16baf7c))
-  (model ${KICAD6_3RD_PARTY}/"${KICAD6_3RD_PARTY}/Connectors/TBLH10V_500_03.step"
+  (model ${KICAD6_3DMODEL_DIR}/"${KICAD6_3DMODEL_DIR}/Connectors/TBLH10V_500_03.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

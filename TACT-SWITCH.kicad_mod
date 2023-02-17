@@ -21,7 +21,7 @@
     (clearance 0.14986))
   (pad "" thru_hole circle (at 0 -0.89916) (size 0.8001 0.8001) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
     (clearance 0.14986))
-  (model ${KICAD6_3RD_PARTY}/Buttons_Switches/tact_switch_bricks.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Buttons_Switches/tact_switch_bricks.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

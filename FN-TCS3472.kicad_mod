@@ -17,7 +17,7 @@
   (pad 4 smd oval (at 0.95 0.65) (size 1.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd oval (at 0.95 0) (size 1.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd oval (at 0.95 -0.65) (size 1.4 0.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/FN-TCS3472-color.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/FN-TCS3472-color.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

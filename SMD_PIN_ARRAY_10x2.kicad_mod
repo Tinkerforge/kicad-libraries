@@ -34,7 +34,7 @@
   (pad 20 smd rect (at 11.43254 -3.4) (size 1.2 5.3) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 10.16 0) (size 1.78 1.78) (drill 1.78) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -10.16 0) (size 1.78 1.78) (drill 1.78) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/pin_array/pins_array_12x2.wrl
+  (model ${KICAD6_3DMODEL_DIR}/pin_array/pins_array_12x2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

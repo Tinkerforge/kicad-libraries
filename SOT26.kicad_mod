@@ -21,7 +21,7 @@
   (pad "4" smd rect (at 0.95 -1.2) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e74b2e20-bcb5-4140-8aea-650f28f12721))
   (pad "5" smd rect (at 0 -1.2) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de62a0ec-8e97-41f4-9c23-e718474e72e8))
   (pad "6" smd rect (at -0.95 -1.2) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 251f3d7f-6f06-4d31-9cff-4eabe94c93af))
-  (model "${KICAD6_3RD_PARTY}/Housing_SOT_SOD/SOT-23-6.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Housing_SOT_SOD/SOT-23-6.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 90))

@@ -21,7 +21,7 @@
   (pad 3 thru_hole circle (at 3.81 3.81) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3.81 -3.81) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at -3.81 -3.81) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD6_3RD_PARTY}/Inductors/WE-UNIT-EE13-V.step
+  (model ${KICAD6_3DMODEL_DIR}/Inductors/WE-UNIT-EE13-V.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

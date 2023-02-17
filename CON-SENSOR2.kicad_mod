@@ -20,7 +20,7 @@
   (pad 5 smd rect (at 1.25 -4.6) (size 0.6 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 2.5 -4.6) (size 0.6 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 3.75 -4.6) (size 0.6 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Connectors_TF/BrickletConn_7pin.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors_TF/BrickletConn_7pin.wrl
     (at (xyz 0 0.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

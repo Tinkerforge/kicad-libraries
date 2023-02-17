@@ -20,7 +20,7 @@
   (pad E3 thru_hole circle (at 5.08 -2.54) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad E2 thru_hole circle (at 5.08 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad E1 thru_hole circle (at 5.08 2.54) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD6_3RD_PARTY}/Pin_Header/pin-array_3x5.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Pin_Header/pin-array_3x5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

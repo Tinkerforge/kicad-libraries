@@ -9,7 +9,7 @@
   (fp_circle (center 0 0) (end 7.00024 0) (layer F.Fab) (width 0.381))
   (pad 1 thru_hole circle (at -2.49936 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.49936 0) (size 1.99898 1.99898) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/unsorted/PS1420_Buzzer_14mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/unsorted/PS1420_Buzzer_14mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

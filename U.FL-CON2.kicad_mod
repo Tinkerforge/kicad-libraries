@@ -19,7 +19,7 @@
   (pad "2" smd rect (at 0 -1.50114) (size 1.00076 1.00076) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 105102ed-6312-4e6a-9aa4-f1784fb7314a))
   (pad "2" smd rect (at 1.45034 0) (size 1.09982 2.19964) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 789ee33a-99f8-44ca-b237-5956f579b439))
   (pad "2" smd rect (at -1.45034 0) (size 1.09982 2.19964) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 882041a1-70d8-42c6-b66b-d27063397ba5))
-  (model ${KICAD6_3RD_PARTY}/"Connectors/U-FL_CON.wrl"
+  (model ${KICAD6_3DMODEL_DIR}/"Connectors/U-FL_CON.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

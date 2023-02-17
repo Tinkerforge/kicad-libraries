@@ -38,7 +38,7 @@
   (pad 26 smd rect (at -0.75 -1.7625) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask))
   (pad 27 smd rect (at -1.25 -1.7625) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask))
   (pad 28 smd rect (at -1.75 -1.7625) (size 0.25 0.875) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Housings_DFN_QFN/DFN-8-1EP_6x5mm_Pitch1.27mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housings_DFN_QFN/DFN-8-1EP_6x5mm_Pitch1.27mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.83 0.75 1))
     (rotate (xyz 0 0 0))

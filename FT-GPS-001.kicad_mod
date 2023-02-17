@@ -9,7 +9,7 @@
   (fp_line (start 12.5 -12.5) (end 12.5 12.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 12.5 12.5) (end -12.5 12.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -12.5 12.5) (end -12.5 -12.5) (layer F.SilkS) (width 0.15))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/FT-GPS-001.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/FT-GPS-001.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

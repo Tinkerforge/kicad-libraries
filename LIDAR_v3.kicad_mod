@@ -9,7 +9,7 @@
   (fp_line (start 24.1 -10) (end 24.1 10) (layer F.Fab) (width 0.15))
   (fp_line (start 24.1 10) (end -24.1 10) (layer F.Fab) (width 0.15))
   (fp_line (start -24.1 10) (end -24.1 -10) (layer F.Fab) (width 0.15))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/Garmin_LIDAR-Lite_v3.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/Garmin_LIDAR-Lite_v3.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

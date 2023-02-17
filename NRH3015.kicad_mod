@@ -12,7 +12,7 @@
   (fp_line (start -1.50114 1.50114) (end -1.50114 -1.50114) (layer F.Fab) (width 0.001))
   (pad 1 smd rect (at -1.09982 0) (size 0.8001 2.70002) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.09982 0) (size 0.8001 2.70002) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Inductors/SPM3012.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Inductors/SPM3012.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

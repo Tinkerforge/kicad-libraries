@@ -21,7 +21,7 @@
   (pad 5 smd rect (at 1.3 -4.325) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -2.075 -3.9) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 2.075 -3.9) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/Connectors/micro-usb-smd.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors/micro-usb-smd.wrl
     (offset (xyz 0 -1.269999980926514 1.269999980926514))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))

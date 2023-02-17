@@ -19,7 +19,7 @@
   (pad 4 thru_hole circle (at -1.25 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -3.75 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at -6.25 0) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KICAD6_3RD_PARTY}/B06B-PASK.wrl
+  (model ${KICAD6_3DMODEL_DIR}/B06B-PASK.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

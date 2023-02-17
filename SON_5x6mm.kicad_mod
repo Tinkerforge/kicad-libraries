@@ -23,7 +23,7 @@
   (pad "" smd rect (at 1.095 -1.095) (size 1.235 1.57) (layers F.Paste))
   (pad "" smd rect (at -0.815 -1.095) (size 1.585 1.57) (layers F.Paste))
   (pad "" smd rect (at -0.815 1.095) (size 1.585 1.57) (layers F.Paste))
-  (model ${KICAD6_3RD_PARTY}/3d/Housing_SO/SON_5x6mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housing_SO/SON_5x6mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

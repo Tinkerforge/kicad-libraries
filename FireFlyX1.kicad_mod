@@ -30,7 +30,7 @@
   (pad 18 smd rect (at 0 -4.6) (size 0.7 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at -1.2 -4.6) (size 0.7 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at -2.4 -4.6) (size 0.7 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/FireFlyX1.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/FireFlyX1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

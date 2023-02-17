@@ -11,7 +11,7 @@
   (fp_line (start -3.2004 1.6002) (end -3.2004 -1.6002) (layer F.Fab) (width 0.381))
   (pad 1 smd rect (at -2.25806 0) (size 3.2512 3.68046) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.25806 0) (size 3.2512 3.68046) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Resistors_SMD/R_2512.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Resistors_SMD/R_2512.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

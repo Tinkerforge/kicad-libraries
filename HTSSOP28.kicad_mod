@@ -46,7 +46,7 @@
   (pad "27" smd rect (at -3.57378 -2.79908) (size 0.24892 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e716f029-4bdf-4005-a9c1-4547395ff1d0))
   (pad "28" smd rect (at -4.22402 -2.79908) (size 0.24892 1.5494) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2968824c-f5ea-4d06-b16c-997744d39c1b))
   (pad "EP" smd rect (at 0 0) (size 5.18 3.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ae98e92a-b008-4158-938c-2331d395b134))
-  (model ${KICAD6_3RD_PARTY}/"Housing_SSOP/HTSSOP-28.wrl"
+  (model ${KICAD6_3DMODEL_DIR}/"Housing_SSOP/HTSSOP-28.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))

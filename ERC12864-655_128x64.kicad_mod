@@ -54,7 +54,7 @@
   (pad 22 thru_hole circle (at 13.335 -25.15) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (pad 23 thru_hole circle (at -24.5 -21.85) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad 24 thru_hole circle (at 24.5 -21.85) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/unsorted/ER-TP028-1.wrl
+  (model ${KICAD6_3DMODEL_DIR}/unsorted/ER-TP028-1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

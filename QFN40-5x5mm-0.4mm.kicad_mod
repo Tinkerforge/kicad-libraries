@@ -61,7 +61,7 @@
     (solder_paste_margin_ratio -0.2))
   (pad EXP smd rect (at -0.9 -0.9) (size 1.8 1.8) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.2))
-  (model ${KICAD6_3RD_PARTY}/Housings_DFN_QFN.3dshapes/QFN-40-1EP_5x5mm_Pitch0.4mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housings_DFN_QFN.3dshapes/QFN-40-1EP_5x5mm_Pitch0.4mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

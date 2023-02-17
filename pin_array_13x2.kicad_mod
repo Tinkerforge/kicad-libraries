@@ -24,7 +24,7 @@
   (pad 11 thru_hole circle (at 10.16 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 12 thru_hole circle (at 12.7 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 25 thru_hole circle (at 15.24 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/pin_array/pins_array_13x2.wrl
+  (model ${KICAD6_3DMODEL_DIR}/pin_array/pins_array_13x2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

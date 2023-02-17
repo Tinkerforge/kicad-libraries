@@ -98,7 +98,7 @@
   (pad 69 smd rect (at 1.875 -1.75) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 70 smd rect (at 0 -1.75) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 71 smd rect (at -1.875 -1.75) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/3d/Housing_special/BL654.step
+  (model ${KICAD6_3DMODEL_DIR}/Housing_special/BL654.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))

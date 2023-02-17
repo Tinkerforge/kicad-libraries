@@ -31,7 +31,7 @@
   (pad SHD smd rect (at 8.54964 -5.99948) (size 1.39954 2.49936) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at -6.6294 7.39902) (size 0.70104 2.79908) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 6.6294 7.39902) (size 0.70104 2.79908) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Connectors/RJ45_slim_RJPSL-001TA1.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors/RJ45_slim_RJPSL-001TA1.wrl
     (offset (xyz 0 3.301999950408935 -2.539999961853027))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

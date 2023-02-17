@@ -31,7 +31,7 @@
   (pad 15 thru_hole oval (at -3.43916 -27.50058) (size 1.50114 4.0005) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 16 thru_hole oval (at -0.89916 -27.50058) (size 1.50114 4.0005) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad "" smd oval (at 1.64084 -27.50058) (size 1.50114 4.0005) (layers B.Cu B.Paste B.Mask))
-  (model ${KICAD6_3RD_PARTY}/unsorted/LCD_4X20.wrl
+  (model ${KICAD6_3DMODEL_DIR}/unsorted/LCD_4X20.wrl
     (at (xyz -0.9 -0.6 0.3937))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

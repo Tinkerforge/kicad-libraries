@@ -20,7 +20,7 @@
   (pad "" np_thru_hole circle (at -3.5 0.9) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 3.6 -0.9) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 3.6 0.9) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/Buttons_Switches/silde_switch_smd.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Buttons_Switches/silde_switch_smd.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

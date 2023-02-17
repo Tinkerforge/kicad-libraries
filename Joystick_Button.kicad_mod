@@ -32,7 +32,7 @@
   (pad "" thru_hole circle (at 3.2512 8.24992) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad SW2 thru_hole circle (at -3.2512 12.6492) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at 3.2512 12.6492) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/Buttons_Switches/Joystick_withButton.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Buttons_Switches/Joystick_withButton.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

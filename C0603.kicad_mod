@@ -12,7 +12,7 @@
   (fp_line (start -1.45034 0.65024) (end -1.45034 -0.65024) (layer F.Fab) (width 0.001))
   (pad 1 smd rect (at -0.8001 0) (size 0.8001 0.8001) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8001 0) (size 0.8001 0.8001) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Capacitors_SMD/C_0603.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Capacitors_SMD/C_0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

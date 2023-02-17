@@ -15,7 +15,7 @@
   (pad 3 smd rect (at 0.94996 1.19888) (size 0.50038 0.8001) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -0.94996 -1.19888) (size 0.50038 0.8001) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.94996 -1.19888) (size 0.50038 0.8001) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Housing_SOT_SOD/SOT-23-5.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housing_SOT_SOD/SOT-23-5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))

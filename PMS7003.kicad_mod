@@ -23,7 +23,7 @@
   (pad 6 thru_hole circle (at 17.12 -10.5) (size 1 1) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 17.12 -11.77) (size 1 1) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 17.12 -13.04) (size 1 1) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/PMS7003.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/PMS7003.wrl
     (at (xyz -0.01 -0.06 0.465))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

@@ -29,7 +29,7 @@
     (clearance 0.14986))
   (pad 1 smd rect (at 1.6002 7.85114) (size 0.50038 2.30124) (layers F.Cu F.Paste F.Mask)
     (clearance 0.14986))
-  (model ${KICAD6_3RD_PARTY}/Connectors/MiniUSB.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connectors/MiniUSB.wrl
     (at (xyz 0 -0.15 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

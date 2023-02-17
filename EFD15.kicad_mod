@@ -25,7 +25,7 @@
   (pad 10 smd rect (at -1.27 -10.15492) (size 1.75006 3.429) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at -3.81 -10.15492) (size 1.75006 3.429) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at -6.35 -10.15492) (size 1.75006 3.429) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/unsorted/EFD15.wrl
+  (model ${KICAD6_3DMODEL_DIR}/unsorted/EFD15.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

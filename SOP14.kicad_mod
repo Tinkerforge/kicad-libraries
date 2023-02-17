@@ -27,7 +27,7 @@
   (pad 12 smd rect (at -1.26746 -2.74828) (size 0.6985 1.59766) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at -2.53746 -2.74828) (size 0.6985 1.59766) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at -3.80746 -2.74828) (size 0.6985 1.59766) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Housings_SOIC/SOIC-14_3.9x8.7mm_Pitch1.27mm.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housings_SOIC/SOIC-14_3.9x8.7mm_Pitch1.27mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

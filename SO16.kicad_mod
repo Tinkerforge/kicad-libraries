@@ -30,7 +30,7 @@
   (pad 14 smd rect (at -1.90246 -2.99974) (size 0.59944 1.79832) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at -3.17246 -2.99974) (size 0.59944 1.79832) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at -4.44246 -2.99974) (size 0.59944 1.79832) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3RD_PARTY}/Housing_SO/SO-16.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Housing_SO/SO-16.wrl
     (at (xyz -0.175 -0.105 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 90))

@@ -16,7 +16,7 @@
   (pad 3 thru_hole circle (at 2.54 0) (size 1.6002 1.6002) (drill 0.50038) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 2.54) (size 1.6002 1.6002) (drill 0.50038) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -2.54 0) (size 1.6002 1.6002) (drill 0.50038) (layers *.Cu *.Mask F.SilkS))
-  (model ${KICAD6_3RD_PARTY}/Sensors_Detectors/MLX90614-TemperatureIR.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Sensors_Detectors/MLX90614-TemperatureIR.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 225))
