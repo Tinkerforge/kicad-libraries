@@ -22,4 +22,9 @@
   (pad "1" thru_hole circle (at 3 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 1d518a45-258d-4f1e-bd93-8a1596e47195))
   (pad "2" thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 8daffd89-7b71-49d6-8c7e-ed92f22c4709))
   (pad "3" thru_hole circle (at -3 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 63a7f65c-6e59-4784-9383-9f070195d097))
+  (model "${KICAD6_3DMODEL_DIR}/Connectors/43650-0329.step"
+    (offset (xyz 0 0 5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
