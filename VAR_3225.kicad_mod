@@ -16,4 +16,9 @@
   (fp_line (start 4 3.2) (end -4 3.2) (layer "F.Fab") (width 0.1) (tstamp ba7dac0c-1d1d-466f-8def-2c6cc4cb50fd))
   (pad "1" smd rect (at -3.7 0) (size 2.9 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0c3bbf5a-a315-4e18-8505-1a97afc6e549))
   (pad "2" smd rect (at 3.7 0) (size 2.9 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7508c312-f918-490c-a184-c7be976cf4a3))
+  (model "${KICAD6_3DMODEL_DIR}/unsorted/VAR_3225.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
