@@ -18,4 +18,9 @@
   (pad "2" thru_hole circle (at 14 7.6) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp ce50db7e-ecb8-4693-b3f0-037bb78ddd5d))
   (pad "3" thru_hole circle (at -14 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp be6a9fcb-705e-4f71-a339-e2e40d0f4c2e))
   (pad "4" thru_hole circle (at -14 7.6) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 73484be8-aa1b-4608-a555-c8101202d3ad))
+  (model "${KICAD6_3DMODEL_DIR}/unsorted/IRM02.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
