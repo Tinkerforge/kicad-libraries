@@ -15,9 +15,7 @@
     (stroke (width 0.12) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 05736e78-11b1-43dd-baaa-ef14a96e5b50))
   (fp_rect (start -8 -9.97) (end 8 6.83)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp 5bb6b278-61d2-4653-b565-782ad70c9529))
-  (pad "1" thru_hole circle (at -7.9 -3.89) (size 2.8 2.8) (drill 1.63) (layers "*.Cu" "*.Mask") (tstamp 21e6bf64-0ee5-4162-83e4-67c909742e28))
   (pad "1" thru_hole circle (at -5.715 -8.89) (size 1.5 1.5) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 7b8fb1b6-46b7-46a3-9b9d-c2a92fcab368))
-  (pad "1" thru_hole circle (at 7.9 -3.89) (size 2.8 2.8) (drill 1.63) (layers "*.Cu" "*.Mask") (tstamp 2bc07eb4-750c-419a-a5d7-6ebba5c1e082))
   (pad "2" thru_hole circle (at -4.445 -6.35) (size 1.5 1.5) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 57c9664b-9a62-42f7-ab38-5d81814894b4))
   (pad "3" thru_hole circle (at -3.175 -8.89) (size 1.5 1.5) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp 3845f4fc-cc7a-4967-8ca1-f4c89e31f105))
   (pad "4" thru_hole circle (at -1.905 -6.35) (size 1.5 1.5) (drill 0.89) (layers "*.Cu" "*.Mask") (tstamp bb1601c6-5fab-4d9c-ae1b-b5ab73df6fa8))
@@ -31,6 +29,8 @@
   (pad "12" thru_hole circle (at -3.785 4.11) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp b10099d9-4522-4dd0-87bd-11f14780493d))
   (pad "13" thru_hole circle (at 3.785 4.11) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp c66c5660-2f99-4bb2-a67f-b421fc62a707))
   (pad "14" thru_hole circle (at 6.325 4.11) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 316e9c03-d011-4581-8e5a-c5262da4a9a0))
+  (pad "SHD" thru_hole circle (at -7.9 -3.89) (size 2.8 2.8) (drill 1.63) (layers "*.Cu" "*.Mask") (tstamp 21e6bf64-0ee5-4162-83e4-67c909742e28))
+  (pad "SHD" thru_hole circle (at 7.9 -3.89) (size 2.8 2.8) (drill 1.63) (layers "*.Cu" "*.Mask") (tstamp 2bc07eb4-750c-419a-a5d7-6ebba5c1e082))
   (model ":KICAD6_3RD_PARTY:Connectors_TF/74991114410.stp"
     (offset (xyz 0 1.55 8.55))
     (scale (xyz 1 1 1))
