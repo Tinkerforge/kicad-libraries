@@ -47985,7 +47985,7 @@
     (symbol "ST33TPHF2XI2C_1_1"
       (pin passive line (at -15.24 -35.56 0) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
-        (number "EXP" (effects (font (size 1.27 1.27))))
+        (number "33" (effects (font (size 1.27 1.27))))
       )
     )
   )
