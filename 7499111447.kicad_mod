@@ -35,4 +35,9 @@
   (pad "14" thru_hole circle (at 6.725 4.57) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 5f414299-2bfd-4c94-8bee-eae0e8c9ac50))
   (pad "SHD" thru_hole circle (at -7.875 -3.05) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 1339d95d-7091-440a-9542-0e4387777853))
   (pad "SHD" thru_hole circle (at 7.875 -3.05) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp cafb0ace-958d-4e91-9237-8609b4efd15f))
+  (model ":KICAD6_3DMODEL_DIR:Connectors/7499111447.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
