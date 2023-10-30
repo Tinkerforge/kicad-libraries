@@ -10,8 +10,6 @@
     (tstamp 3409d93e-d6ad-4a7c-8568-d4af8b632237)
   )
   (pad "" np_thru_hole circle (at -8.65 0) (size 1.6 1.6) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 51ed2714-d98f-4de7-a819-c31334424e41))
-  (pad "" np_thru_hole circle (at -8.25 -48.05) (size 6 6) (drill 3.7) (layers "F.Cu" "F.Mask") (tstamp de350710-5fa2-49fc-bf2b-be7e409dc277))
-  (pad "" np_thru_hole circle (at 15.95 -48.05) (size 6 6) (drill 3.7) (layers "F.Cu" "F.Mask") (tstamp 61591392-4e26-4ba9-82cf-208f24a43036))
   (pad "" np_thru_hole circle (at 16.35 0) (size 1.1 1.1) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp afa2de2b-774f-49a2-8595-ed73231b0495))
   (pad "1" smd rect (at -7.95 4.1) (size 0.6 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6307cbf-8a57-48a1-856a-b92eb37dab04))
   (pad "2" smd rect (at -7.55 -4.1) (size 0.6 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fd5f5ee2-985a-47ec-acba-a95a6cc0678f))
@@ -66,6 +64,8 @@
   (pad "51" smd rect (at 15.25 4.1) (size 0.6 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c7b31ba1-a2d0-4953-841a-8a0cca43b30c))
   (pad "52" smd rect (at 15.65 -4.1) (size 0.6 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d71cce40-493b-4171-a324-557fb953fbea))
   (pad "MNT" smd rect (at -10.8 3.5) (size 2.3 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 25e546c1-8029-4def-b061-913b9efc8f55))
+  (pad "MNT" thru_hole circle (at -8.25 -48.05) (size 6 6) (drill 3.7) (layers "*.Cu" "*.Mask") (tstamp de350710-5fa2-49fc-bf2b-be7e409dc277))
+  (pad "MNT" thru_hole circle (at 15.95 -48.05) (size 6 6) (drill 3.7) (layers "*.Cu" "*.Mask") (tstamp 61591392-4e26-4ba9-82cf-208f24a43036))
   (pad "MNT" smd rect (at 18.5 3.5) (size 2.3 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 560fbe94-def6-4f7a-aa78-cf33f494652d))
   (model "${KICAD6_3DMODEL_DIR}/Connectors/Mini-PCIE.wrl"
     (offset (xyz 0 0 0))
