@@ -83,15 +83,4 @@
 		(remove_unused_layers no)
 		(uuid "1a1cb1bd-e91c-4d0c-ac66-53cb82992f60")
 	)
-	(model ":KICAD6_3DMODEL_DIR:Connectors/TSTP_MINI.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
