@@ -141,4 +141,15 @@
 		(roundrect_rratio 0.15)
 		(uuid "bd1bc7c8-896c-4fe2-9444-3114c51d78e0")
 	)
+	(model "${KICAD6_3DMODEL_DIR}/Connectors/OQ_4P_5mm_230V.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

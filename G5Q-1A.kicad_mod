@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" "G5Q-1A"
-		(at 0 0 0)
+	(property "Footprint" ""
+		(at -7.7 0.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -106,5 +109,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2c075324-c1c9-475b-8628-1e7ee7e0e628")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/unsorted/G5Q_1A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
