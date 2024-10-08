@@ -233,7 +233,7 @@
 	)
 	(model "${KICAD6_3DMODEL_DIR}/Connectors/MTJ_88ARX1_FSM_LG.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 3.6 0.1 -0.9)
 		)
 		(scale
 			(xyz 1 1 1)
