@@ -217,7 +217,7 @@
 	)
 	(pad "SHD" thru_hole circle
 		(at -8.128 -1.016)
-		(size 2.1082 2.1082)
+		(size 2.5 2.5)
 		(drill 1.6002)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -225,7 +225,7 @@
 	)
 	(pad "SHD" thru_hole circle
 		(at 8.128 -1.016)
-		(size 2.1082 2.1082)
+		(size 2.5 2.5)
 		(drill 1.6002)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
