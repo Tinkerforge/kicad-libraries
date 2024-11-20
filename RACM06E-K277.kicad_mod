@@ -1,0 +1,124 @@
+(footprint "RACM06E-K277"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U111"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5b59b45c-a5c8-4e90-9afc-23be7fa099e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RACM06E-K277"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aef6681a-9279-4fa3-b390-4ea43a4d117c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kicad-libraries:RACM06E-K277"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2279f582-8b84-4d60-b569-3bbecaf5b800")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52c9ee32-2b5c-4c89-a735-bf93fdff0599")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fec4453-d440-4d8a-859d-99e3d15d8c9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -13 13)
+		(end 13 -13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c662254f-6c20-4d06-b569-38af06b8d82f")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 10.16)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6ec61fa-1cd6-4f19-acb1-829cc8135419")
+	)
+	(pad "2" thru_hole circle
+		(at -10.16 10.16)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ebce6228-461f-4666-853f-b99b27bd8890")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -10.16)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8f22701-6018-476d-9ca7-63be64ddd162")
+	)
+	(pad "5" thru_hole circle
+		(at -10.16 -10.16)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b7640a6-0ec7-494e-85aa-2afa83fc34a4")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/unsorted/RACM06E_K277.step"
+		(offset
+			(xyz -10.67 -17.15 11.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
+)
