@@ -1,0 +1,73 @@
+(footprint "TSTP_NANO"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "P6"
+		(at 0 -0.3 0)
+		(layer "F.Fab")
+		(uuid "b23ed5fa-d7b4-42d2-9474-5027bc3b4848")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(property "Value" "TSTPT_5V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0f48f30f-b2b3-49ae-85db-9f91b6b658e1")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.03175)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31303162-bd2b-4667-91ad-f29d7716125a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "611f17fe-addf-4b4b-96e1-1695c1348836")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17c4b9ad-2e4a-4c39-a587-3d580e8955db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f4770c4-a231-4865-80af-861a5b7d3567")
+	)
+)

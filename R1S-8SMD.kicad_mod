@@ -174,4 +174,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "edc33c6d-9e57-456f-8be3-6996bdf06b87")
 	)
+	(model "${KICAD6_3DMODEL_DIR}/unsorted/R1S-8SMD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

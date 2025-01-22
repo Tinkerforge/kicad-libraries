@@ -1,19 +1,128 @@
-(module NR4040 (layer F.Cu) (tedit 598331AF)
-  (fp_text reference L302 (at 0 -0.8) (layer F.Fab)
-    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
-  )
-  (fp_text value 0.33uH (at 0 0) (layer F.Fab)
-    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
-  )
-  (fp_line (start -2.25044 -2.10058) (end 2.25044 -2.10058) (layer F.Fab) (width 0.29972))
-  (fp_line (start 2.25044 -2.10058) (end 2.25044 2.10058) (layer F.Fab) (width 0.29972))
-  (fp_line (start 2.25044 2.10058) (end -2.25044 2.10058) (layer F.Fab) (width 0.29972))
-  (fp_line (start -2.25044 2.10058) (end -2.25044 -2.10058) (layer F.Fab) (width 0.29972))
-  (pad 1 smd rect (at 1.5 0) (size 1.5 3.70078) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.5 0) (size 1.5 3.70078) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3DMODEL_DIR}/Inductors/NR4040.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "NR4040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "L302"
+		(at 0 -0.8 0)
+		(layer "F.Fab")
+		(uuid "2e344c40-b9e0-49b4-b3bf-349d53fa3d1c")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.07493)
+			)
+		)
+	)
+	(property "Value" "0.33uH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9f8848be-201e-4bc3-8a61-74fa37334d90")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.07493)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12775262-651a-4de1-91e4-8a3db09750b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00ae042c-ebe7-4bd3-a985-1526d191076a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2da8fcc1-e4a5-4de0-9db7-acdabe50e597")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.25044 -2.10058)
+		(end 2.25044 -2.10058)
+		(stroke
+			(width 0.29972)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96019b48-bc79-41fd-b5c1-2e79f5b3bfc3")
+	)
+	(fp_line
+		(start -2.25044 2.10058)
+		(end -2.25044 -2.10058)
+		(stroke
+			(width 0.29972)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a965d2a-3faa-4186-846d-e22ea12f04ec")
+	)
+	(fp_line
+		(start 2.25044 -2.10058)
+		(end 2.25044 2.10058)
+		(stroke
+			(width 0.29972)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7511e04-9f7d-47c7-a531-655141ea16bc")
+	)
+	(fp_line
+		(start 2.25044 2.10058)
+		(end -2.25044 2.10058)
+		(stroke
+			(width 0.29972)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18daebe8-a5ad-4e68-97e1-a0622173385e")
+	)
+	(pad "1" smd rect
+		(at 1.5 0)
+		(size 1.5 3.70078)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f166c2c-3bf4-4536-a572-69a2dc145a0e")
+	)
+	(pad "2" smd rect
+		(at -1.5 0)
+		(size 1.5 3.70078)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "611f3987-f3a4-498f-9837-89ad8e399e33")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Inductors/NR4040.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )
