@@ -1,0 +1,114 @@
+(footprint "PCBCON-7-M3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8aa2cc8d-4cf8-4601-8320-3d7780c50d7b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCBCON-7-M3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "38a88f01-8681-407a-bcef-a60b9665af2e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efca18f8-4762-4bf6-ba84-3aac7021682f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8198d1a2-1f9a-42e6-bbf4-425cc004bf4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b00cb7af-3c5b-4482-bb55-ef5617fddaa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.507692 -3.961538) (xy -0.507692 3.938462) (xy -1.107692 3.838462) (xy -1.707692 3.588462)
+			(xy -2.157692 3.338462) (xy -2.607692 2.988462) (xy -3.157692 2.438462) (xy -3.457692 1.988462) (xy -3.807692 1.188462)
+			(xy -3.907692 0.788462) (xy -3.957692 0.288462) (xy -4.007692 -0.311538) (xy -3.907692 -0.811538)
+			(xy -3.707692 -1.461538) (xy -3.407692 -2.061538) (xy -3.157692 -2.461538) (xy -2.457692 -3.161538)
+			(xy -1.707692 -3.611538) (xy -1.207692 -3.811538)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "0e6978b2-43a4-466d-b2a9-c5bb1cb13f33")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 3.95) (xy 0.5 -3.95) (xy 1.1 -3.85) (xy 1.7 -3.6) (xy 2.15 -3.35) (xy 2.6 -3) (xy 3.15 -2.45)
+			(xy 3.45 -2) (xy 3.8 -1.2) (xy 3.9 -0.8) (xy 3.95 -0.3) (xy 4 0.3) (xy 3.9 0.8) (xy 3.7 1.45) (xy 3.4 2.05)
+			(xy 3.15 2.45) (xy 2.45 3.15) (xy 1.7 3.6) (xy 1.2 3.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "f7a7182b-0253-49f4-81f2-41e953bb0786")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "7dd22599-12ee-452d-8716-f8d89586d275")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 8 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2155bbec-71b3-49ca-b5bc-704060f123f7")
+	)
+)
