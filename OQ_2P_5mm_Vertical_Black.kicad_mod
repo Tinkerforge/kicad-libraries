@@ -21,7 +21,7 @@
   (fp_line (start 0 -4.7) (end 0 3.8) (layer F.Fab) (width 0.12))
   (pad 1 thru_hole circle (at -2.5 0) (size 3.5 3.5) (drill 1.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 0) (size 3.5 3.5) (drill 1.7) (layers *.Cu *.Mask))
-  (model ${KICAD6_3DMODEL_DIR}/"Connectors/OQ 2P black-5mm vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Connectors/OQ 2P black-5mm vertical.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
