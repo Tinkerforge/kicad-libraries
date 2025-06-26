@@ -1,26 +1,187 @@
-(module SMC (layer F.Cu) (tedit 5F59F543)
-  (fp_text reference D201 (at -1.5 -1.8) (layer F.Fab)
-    (effects (font (size 0.59944 0.59944) (thickness 0.12446)))
-  )
-  (fp_text value 3.0SMI30CATR (at 0 4.1) (layer F.Fab)
-    (effects (font (size 0.59944 0.59944) (thickness 0.12446)))
-  )
-  (fp_line (start -3.50012 2.99974) (end -3.50012 -2.99974) (layer F.Fab) (width 0.39878))
-  (fp_line (start 3.50012 2.99974) (end -3.50012 2.99974) (layer F.Fab) (width 0.39878))
-  (fp_line (start 3.50012 -2.99974) (end 3.50012 2.99974) (layer F.Fab) (width 0.39878))
-  (fp_line (start -3.50012 -2.99974) (end 3.50012 -2.99974) (layer F.Fab) (width 0.39878))
-  (fp_line (start 1.5494 2.99974) (end 1.5494 -2.99974) (layer F.Fab) (width 0.39878))
-  (fp_line (start 1.84912 -2.99974) (end 1.89992 2.90068) (layer F.Fab) (width 0.39878))
-  (fp_line (start 2.19964 -2.94894) (end 2.19964 2.94894) (layer F.Fab) (width 0.39878))
-  (fp_line (start 1.15062 -2.94894) (end 1.15062 2.84988) (layer F.Fab) (width 0.39878))
-  (fp_line (start 1.30048 -2.99974) (end 1.30048 2.84988) (layer F.Fab) (width 0.39878))
-  (fp_line (start 0.8001 -2.94894) (end 0.8509 2.79908) (layer F.Fab) (width 0.39878))
-  (fp_line (start 0.55118 2.94894) (end 0.55118 -2.94894) (layer F.Fab) (width 0.39878))
-  (pad 1 smd rect (at -3.5687 0) (size 2.794 3.81) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 3.5687 0) (size 2.794 3.81) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD6_3DMODEL_DIR}/Housings_DO/SMC.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SMC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "D201"
+		(at -1.5 -1.8 0)
+		(layer "F.Fab")
+		(uuid "5157a393-1394-4052-82f3-ae7db54107ef")
+		(effects
+			(font
+				(size 0.59944 0.59944)
+				(thickness 0.12446)
+			)
+		)
+	)
+	(property "Value" "3.0SMI30CATR"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(uuid "2546448d-8919-4c51-bf5b-15ae5d1d810b")
+		(effects
+			(font
+				(size 0.59944 0.59944)
+				(thickness 0.12446)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fa35735-b492-48fa-bad7-916d985f64a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fedfeba-2731-4af8-9df4-8c1858b2e8e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.50012 -2.99974)
+		(end 3.50012 -2.99974)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c32d9ccb-60b7-4c39-8f84-f44266555836")
+	)
+	(fp_line
+		(start -3.50012 2.99974)
+		(end -3.50012 -2.99974)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e48fd92f-5e78-44b5-a5ce-c46f6adc7f16")
+	)
+	(fp_line
+		(start 0.55118 2.94894)
+		(end 0.55118 -2.94894)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74fc437e-cdd3-4ab1-a3e4-6a858c624319")
+	)
+	(fp_line
+		(start 0.8001 -2.94894)
+		(end 0.8509 2.79908)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f69fcab-d8d9-45f8-82d5-48307f63b855")
+	)
+	(fp_line
+		(start 1.15062 -2.94894)
+		(end 1.15062 2.84988)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14a30af6-c7d5-4465-a18e-188bea7119d9")
+	)
+	(fp_line
+		(start 1.30048 -2.99974)
+		(end 1.30048 2.84988)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d93f6a1-532e-4087-bdbb-e734453556e6")
+	)
+	(fp_line
+		(start 1.5494 2.99974)
+		(end 1.5494 -2.99974)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eaed7ff6-4370-4560-99bd-4bd8a5d6f9ac")
+	)
+	(fp_line
+		(start 1.84912 -2.99974)
+		(end 1.89992 2.90068)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b3cf80b-012c-4f03-a6c0-74f9b0e464d1")
+	)
+	(fp_line
+		(start 2.19964 -2.94894)
+		(end 2.19964 2.94894)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4eccf53d-502c-4d6c-8bea-9235392d4f46")
+	)
+	(fp_line
+		(start 3.50012 -2.99974)
+		(end 3.50012 2.99974)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a780856e-c845-4b8c-ba4f-a5deafed4466")
+	)
+	(fp_line
+		(start 3.50012 2.99974)
+		(end -3.50012 2.99974)
+		(stroke
+			(width 0.39878)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c560fc8-01d3-44f0-b1a6-3728690abf5c")
+	)
+	(pad "1" smd rect
+		(at -3.5687 0)
+		(size 2.794 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55789bc0-f0e7-467e-98c0-13f81aebfdd8")
+	)
+	(pad "2" smd rect
+		(at 3.5687 0)
+		(size 2.794 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "34c3d4c3-5996-47af-879c-8f3ea255349b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Housings_DO/SMC.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
