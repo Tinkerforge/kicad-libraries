@@ -1,21 +1,130 @@
-(module R1210 (layer F.Cu) (tedit 5A4CA10D)
-  (fp_text reference R401 (at 0 0) (layer F.Fab)
-    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
-  )
-  (fp_text value AMCV-1210H-260-T (at 0 1.95072) (layer F.Fab)
-    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
-  )
-  (fp_line (start -1.6002 -1.24968) (end -1.6002 1.24968) (layer F.Fab) (width 0.381))
-  (fp_line (start -1.6002 1.24968) (end 1.6002 1.24968) (layer F.Fab) (width 0.381))
-  (fp_line (start 1.6002 1.24968) (end 1.6002 -1.24968) (layer F.Fab) (width 0.381))
-  (fp_line (start 1.6002 -1.24968) (end -1.6002 -1.24968) (layer F.Fab) (width 0.381))
-  (pad 1 smd rect (at -1.5494 0) (size 0.89916 2.49936) (layers F.Cu F.Paste F.Mask)
-    (clearance 0.14986))
-  (pad 2 smd rect (at 1.5494 0) (size 0.89916 2.49936) (layers F.Cu F.Paste F.Mask)
-    (clearance 0.14986))
-  (model ${KICAD6_3DMODEL_DIR}/Resistors_SMD/R_1210.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "R1210"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "R401"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "22ebda5c-1529-4d55-bb11-6358fb872023")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.07493)
+			)
+		)
+	)
+	(property "Value" "AMCV-1210H-260-T"
+		(at 0 1.95072 0)
+		(layer "F.Fab")
+		(uuid "e2dc4ea8-9f78-4fac-8735-c8c137eb3632")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.07493)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d956a59-fa90-4f5e-9e97-118e94dc037b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b37776-38f9-42a2-a9d0-14dab304e5b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fcfb5f5-77cf-432a-916a-9609ab1953fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6002 -1.24968)
+		(end -1.6002 1.24968)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5f9622a-b92d-4753-ae85-b37316242478")
+	)
+	(fp_line
+		(start -1.6002 1.24968)
+		(end 1.6002 1.24968)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b9d0c36-72fe-4c83-b8d1-084540f72f91")
+	)
+	(fp_line
+		(start 1.6002 -1.24968)
+		(end -1.6002 -1.24968)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dc3f305-8a67-427b-a643-8f0c0a8b33c4")
+	)
+	(fp_line
+		(start 1.6002 1.24968)
+		(end 1.6002 -1.24968)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60945fe9-5dc3-40b7-ace3-f70c041079b1")
+	)
+	(pad "1" smd rect
+		(at -1.5494 0)
+		(size 0.89916 2.49936)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.14986)
+		(uuid "af4ad6d1-9dad-4a33-b079-1437864540ea")
+	)
+	(pad "2" smd rect
+		(at 1.5494 0)
+		(size 0.89916 2.49936)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.14986)
+		(uuid "7b442615-8ef9-4c89-bb53-6a65c6302513")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Resistors_SMD/R_1210.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
