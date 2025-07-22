@@ -1,7 +1,7 @@
 (footprint "SD-Card-DM3CS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0.5 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SD-Card-DM3CS"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e1bc1bb-2444-4fac-a7bc-8002c3f5284f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,10 +47,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -6.9 -7.05)
 		(end 6.9 -7.05)
@@ -195,81 +185,82 @@
 	(pad "1" smd rect
 		(at 3 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "42d09913-c024-429a-a955-b81619f9ed86")
 	)
 	(pad "2" smd rect
 		(at 1.9 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01645b40-896c-41b4-82a6-536155b8b584")
 	)
 	(pad "3" smd rect
 		(at 0.8 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2bb394d-298c-417b-b62e-fa7fcd512c7d")
 	)
 	(pad "4" smd rect
 		(at -0.3 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bca12f3b-52f0-4f40-a946-b664c17f38e7")
 	)
 	(pad "5" smd rect
 		(at -1.4 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6611cca-e5db-4c36-b00a-2b1b185ac841")
 	)
 	(pad "6" smd rect
 		(at -2.5 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ac5e446-2e3a-4798-9610-49b3e4592c07")
 	)
 	(pad "7" smd rect
 		(at -3.6 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5436a70b-f205-46ba-b417-c88650f43ebf")
 	)
 	(pad "8" smd rect
 		(at -4.7 6.35)
 		(size 0.7 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bfce6e8f-04d3-49bd-abd5-cab7f7cab6cc")
 	)
 	(pad "CDS" smd rect
 		(at 1.6 -6.35)
 		(size 2.7 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "849af9c7-bdd9-4421-b460-680aca6f52e0")
 	)
 	(pad "S" smd rect
 		(at -6.8 5.75)
 		(size 1 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a018e86-8827-45ca-b07e-7e016c2cf5c4")
 	)
 	(pad "S" smd rect
 		(at -3.3 -6.35)
 		(size 2.7 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5660586-17c6-4099-8e04-d149e6f44dc4")
 	)
 	(pad "S" smd rect
 		(at 4.65 -6.45)
 		(size 1.2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "26a37d65-d4df-4e5f-856a-53b6aaf3a1d0")
 	)
 	(pad "S" smd rect
 		(at 6.55 5.75)
 		(size 1.5 2.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e5771672-17ba-44ee-a360-6c96c0f4c072")
 	)
+	(embedded_fonts no)
 	(model ":KICAD6_3DMODEL_DIR:Connectors/SD-DM3CS.step"
 		(offset
 			(xyz 0 0 0)
