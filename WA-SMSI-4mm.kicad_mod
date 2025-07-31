@@ -1,0 +1,78 @@
+(footprint "WA-SMSI-4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b0dfe21-9c1d-4940-a517-59cc07cc86e8")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Value" "WA-SMSI-4mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c9a8e8a-572e-44b7-80e3-4cfcc70d87a9")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5eea5e0-3b88-4ac8-9863-96ede73577d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "880dd888-7f42-4d54-bcd5-b734e7ae744e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "96a00f52-2f01-4d81-aa97-3b9c6b62891e")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.0375)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9.4 9.4)
+		(drill 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1db8caa3-2683-4691-b9b4-f02b5449227a")
+	)
+	(embedded_fonts no)
+)
