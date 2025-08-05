@@ -10,8 +10,8 @@
 		(uuid "d81c789b-1e86-4fd5-bcc6-e3ec1b6f969f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.15 0.15)
+				(thickness 0.0375)
 			)
 		)
 	)
@@ -22,8 +22,8 @@
 		(uuid "1e9e3728-7526-4e71-bc5d-71f384075293")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.15 0.15)
+				(thickness 0.0375)
 			)
 		)
 	)
@@ -54,17 +54,87 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -1.9 2)
+		(end -1.1 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb775222-db3d-4c03-a8a8-07c30975bc86")
+	)
+	(fp_rect
+		(start -1.9 -2.9)
+		(end 1.9 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d9a279aa-c218-43a1-9be0-049536720b3b")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "28311fb7-f50a-49ab-9290-da98b29d2bcb")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.15 0.15)
+				(thickness 0.0375)
 			)
 		)
 	)
+	(fp_text user "ON"
+		(at -1 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b06f0103-dcf0-4e51-bc11-7804c8b7dfa3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.635 3.81)
+		(size 0.76 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06ff960e-f63f-4e07-8bf0-da111a947316")
+	)
+	(pad "2" smd rect
+		(at -0.635 -3.81)
+		(size 0.76 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8960340-159f-46ec-af32-050ef005a381")
+	)
+	(pad "3" smd rect
+		(at 0.635 3.81)
+		(size 0.76 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d2913cd-7002-4440-b0fb-6393214db4c0")
+	)
+	(pad "4" smd rect
+		(at 0.635 -3.81)
+		(size 0.76 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "72a03455-a2d3-4741-9efa-b757e3640b07")
+	)
 	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Buttons_Switches/DIP_SW_2LPST.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
