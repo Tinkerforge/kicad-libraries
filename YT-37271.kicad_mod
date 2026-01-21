@@ -1,0 +1,109 @@
+(footprint "YT-37271"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "T"
+		(at 0 -0.762 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5bf03a72-685d-4a8a-a6e8-2608f80437ec")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "YT-37271"
+		(at 0 1.262 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c062a6d3-bf15-4fea-ad95-8365a18c0db1")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ad18f94-31f5-4d93-bdde-97cb1ebdbb56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aafe15c7-ef6f-4e50-a404-02200cc3b20a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.7 -3)
+		(end 3.7 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "25d6e80f-51a5-4edb-ab94-2d15891901db")
+	)
+	(fp_circle
+		(center -1.8 -2)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9bb857f4-29c5-4dcf-a508-ddc2bcffa713")
+	)
+	(pad "1" smd roundrect
+		(at -3.675 -1.27)
+		(size 2.85 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "94710a46-e528-4c50-96c2-78e9ff87bc7e")
+	)
+	(pad "2" smd roundrect
+		(at -3.674 1.27)
+		(size 2.85 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "de11ddc5-c0d7-40a7-899f-9250c0912ec0")
+	)
+	(pad "3" smd roundrect
+		(at 3.675 1.27)
+		(size 2.85 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f00ddbfc-931a-460d-bea9-886cd7a3cc15")
+	)
+	(pad "4" smd roundrect
+		(at 3.675 -1.27)
+		(size 2.85 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "62ce8c09-3513-49e7-b3c3-68db998fc5c6")
+	)
+	(embedded_fonts no)
+)
