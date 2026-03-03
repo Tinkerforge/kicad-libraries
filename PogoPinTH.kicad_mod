@@ -50,12 +50,11 @@
 		)
 	)
 	(attr through_hole)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 1.8 1.8)
-		(drill 1.5)
+		(size 1.4 1.4)
+		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
 		(uuid "11280fe5-d54a-4008-a49e-f6b79430a0aa")
 	)
 	(embedded_fonts no)
