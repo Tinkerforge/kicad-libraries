@@ -1,0 +1,129 @@
+(footprint "331221602040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMT EMI Contact Finger, body 6x2x4mm, https://www.we-online.com/en/components/products/datasheet/331221602040?ki")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "339cb513-3508-47ee-8499-31cd8204b139")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "331221602040"
+		(at 0 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f902929-7dc9-41bf-b19e-ebefe7bbd556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "debc7fba-42ea-41bd-a485-f8d5ef13d602")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c727ee7-2ca2-44e3-aa5d-4ee289d4e457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.51 -1.11)
+		(end 3.11 -1.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5cf8c252-4d60-41c8-b093-f61012d44ac6")
+	)
+	(fp_line
+		(start 3.11 -1.11)
+		(end 3.11 1.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81e6d932-beab-4426-a77f-e4e4a21b7639")
+	)
+	(fp_line
+		(start 3.11 1.11)
+		(end 0.51 1.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dd2b1c6-f5e0-4302-bbd3-9d35624e7c76")
+	)
+	(fp_rect
+		(start -3 -1)
+		(end 3 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "523aee8d-e167-46f8-897f-3afdd6d25a8f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9c1790cd-5779-4b99-b94e-3352fdf29cf3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "28f10c6d-7d75-4fe9-aa3d-c4e4aec03f71")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3RD_PARTY}/Connectors_TF/H_Wurth_WE-SECF_331221602040.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
