@@ -63,13 +63,13 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.Fab")
+		(layer "Eco2.User")
 		(uuid "8c6fb98a-b4b0-4a5e-a668-de597f0e1592")
 	)
 	(fp_text user "8x8 Datamatrix"
 		(at 0 2.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "Eco2.User")
 		(uuid "eb2f4f96-7d43-4c47-9e8d-6bc3b2e15384")
 		(effects
 			(font
