@@ -1,7 +1,7 @@
 (footprint "TSTP_NANO_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "P6"
 		(at 0 -0.3 0)
@@ -22,18 +22,6 @@
 			(font
 				(size 0.127 0.127)
 				(thickness 0.03175)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "31303162-bd2b-4667-91ad-f29d7716125a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -65,7 +53,8 @@
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1.2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "7f4770c4-a231-4865-80af-861a5b7d3567")
 	)
+	(embedded_fonts no)
 )
