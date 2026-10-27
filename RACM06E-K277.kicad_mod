@@ -1,7 +1,7 @@
 (footprint "RACM06E-K277"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "U111"
 		(at 0 -2.5 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "kicad-libraries:RACM06E-K277"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2279f582-8b84-4d60-b569-3bbecaf5b800")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,13 +55,13 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -13 13)
-		(end 13 -13)
+		(start -12.8 12.8)
+		(end 12.8 -12.8)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c662254f-6c20-4d06-b569-38af06b8d82f")
 	)
@@ -110,6 +97,7 @@
 		(remove_unused_layers no)
 		(uuid "0b7640a6-0ec7-494e-85aa-2afa83fc34a4")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/unsorted/RACM06E_K277.step"
 		(offset
 			(xyz -10.67 -17.15 11.6)
